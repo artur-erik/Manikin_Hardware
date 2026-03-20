@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Diff_PressureSensor_SDP_v1.1_sep2023")(type "KiCad")(uri "$(KIPRJMOD)/Diff_PressureSensor_SDP_v1.1_sep2023.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "ThoraxSensor3.0.6_2024_VCNT2020-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/ThoraxSensor3.0.6_2024_VCNT2020-eagle-import.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Compressions_TOF_VL53L4CD_v1.0.0_mar2025")(type "KiCad")(uri "$(KIPRJMOD)/Compressions_TOF_VL53L4CD_v1.0.0_mar2025.pretty")(options "")(descr ""))
+)

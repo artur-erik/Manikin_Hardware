@@ -1,0 +1,216 @@
+(footprint "PTSM_M4_TH_ANGLE_NEUTRAL_MIRRORED"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "I2C Header Phoenix for e.g. ThoraxTouch SensorModule")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "2137c407-27c7-439d-a991-b2d07a709c76")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b22d345e-dacf-420e-ad39-4009f2fc9a0f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d794c56d-7ac3-45ea-af2f-d1b742225698")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2433f7de-e27c-4036-a636-bd14bec73307")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -5.76 -8)
+		(end -5.76 -0.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3e6cafb1-f963-4895-9089-f6210edfed45")
+	)
+	(fp_line
+		(start -5.76 -0.7)
+		(end -5.76 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c4eec12-2549-4fa8-b1f4-4e6c57cc5fe0")
+	)
+	(fp_line
+		(start -5.76 -0.7)
+		(end 5.76 -0.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f660ac2a-65c9-4e0d-8438-783b7ea50b2c")
+	)
+	(fp_line
+		(start -5.76 0)
+		(end 5.76 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "af46b167-d76e-4376-a115-df3d6a2221ac")
+	)
+	(fp_line
+		(start 5.76 -8)
+		(end -5.76 -8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d4750eb-ea9c-40f5-8b8c-3a1678de82d0")
+	)
+	(fp_line
+		(start 5.76 -0.7)
+		(end 5.76 -8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0a3eb9f0-56a8-46f9-9e7d-2b4989398213")
+	)
+	(fp_line
+		(start 5.76 0)
+		(end 5.76 -0.7)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f80dca2-7e1a-4a58-9d96-84eebe92aed6")
+	)
+	(fp_text user "GND"
+		(at 3.507 -4.445 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5c57b708-4475-4ac2-9aa4-7f8bd7fe11f8")
+		(effects
+			(font
+				(size 0.93472 0.93472)
+				(thickness 0.08128)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "3.3V"
+		(at 0.967 -4.445 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5f977cdd-1b5d-45cc-8df6-a06f2a00924c")
+		(effects
+			(font
+				(size 0.93472 0.93472)
+				(thickness 0.08128)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "SDA"
+		(at -4.113 -4.445 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6c609c90-939a-4f10-bbba-6fd039db5722")
+		(effects
+			(font
+				(size 0.93472 0.93472)
+				(thickness 0.08128)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "SCL"
+		(at -1.573 -4.445 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bfd6577f-b410-4b81-925a-b27248d19b80")
+		(effects
+			(font
+				(size 0.93472 0.93472)
+				(thickness 0.08128)
+			)
+			(justify mirror)
+		)
+	)
+	(pad "P1" thru_hole circle
+		(at 3.75 -1)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "9801de9a-dc97-4cb4-9836-308ebc31d030")
+	)
+	(pad "P2" thru_hole circle
+		(at 1.25 -1)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "84256f07-6c77-4e73-9a13-2cf5b3eaa3cc")
+	)
+	(pad "P3" thru_hole circle
+		(at -1.25 -1)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "084c3f81-e21e-46db-a6bf-21851197a944")
+	)
+	(pad "P4" thru_hole circle
+		(at -3.75 -1)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "d90b39b6-f683-4d83-bb1e-69c9c000cedb")
+	)
+	(embedded_fonts no)
+)

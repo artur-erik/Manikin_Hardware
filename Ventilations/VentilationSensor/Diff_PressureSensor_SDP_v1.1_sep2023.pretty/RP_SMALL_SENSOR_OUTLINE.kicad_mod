@@ -1,0 +1,166 @@
+(footprint "RP_SMALL_SENSOR_OUTLINE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RobotPatient Small Module Outline")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "5309872b-aaa6-4378-93d0-e76f933a078f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "81bc8fd7-178c-410e-984d-3b3809d3661b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c91fa8d0-6a04-446e-8a2e-7a5efafffd4d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f83805b-1193-45e0-b038-3a5f0e90d751")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -14 -13)
+		(end -14 13)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4c9a12f4-f10f-492b-b29b-6466bc06443d")
+	)
+	(fp_line
+		(start -12 15)
+		(end 12 15)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d65f28ea-e118-4b65-a56e-bb516a364e3c")
+	)
+	(fp_line
+		(start 12 -15)
+		(end -12 -15)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "eee2f7eb-1202-4733-b9c1-58322b762370")
+	)
+	(fp_line
+		(start 14 13)
+		(end 14 -13)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8ef24919-cb3c-4a73-9e29-0c59daea9e81")
+	)
+	(fp_arc
+		(start -14 -13)
+		(mid -13.414214 -14.414214)
+		(end -12 -15)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9f51e026-8d2d-41e9-a8be-c75d07248017")
+	)
+	(fp_arc
+		(start -12 15)
+		(mid -13.414214 14.414214)
+		(end -14 13)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "33d98053-f5e0-4186-ac29-146d8c5616c7")
+	)
+	(fp_arc
+		(start 12 -15)
+		(mid 13.414214 -14.414214)
+		(end 14 -13)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3d5b66ef-fd0b-405f-a15d-5eb3da53e2e9")
+	)
+	(fp_arc
+		(start 14 13)
+		(mid 13.414214 14.414214)
+		(end 12 15)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "46a431ff-4a81-4ffb-aca4-9311f5d3ffe7")
+	)
+	(pad "" np_thru_hole circle
+		(at -11.455 -12.455)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "b94d6f21-a0c1-4769-ba5c-cfe2b48cffef")
+	)
+	(pad "" np_thru_hole circle
+		(at -11.455 12.455)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "dec5de74-ba9d-4a4b-8511-889158cc1931")
+	)
+	(pad "" np_thru_hole circle
+		(at 11.455 -12.455)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "2cd56679-fbba-4c15-9474-4f8998d08d1f")
+	)
+	(pad "" np_thru_hole circle
+		(at 11.455 12.455)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "1e920435-5baf-4329-9eb8-2cd674c08a56")
+	)
+	(embedded_fonts no)
+)

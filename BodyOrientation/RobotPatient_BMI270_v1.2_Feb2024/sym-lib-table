@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "RobotPatient_BMI270_v1.2_Feb2024-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/RobotPatient_BMI270_v1.2_Feb2024-eagle-import.kicad_sym")(options "")(descr ""))
+)

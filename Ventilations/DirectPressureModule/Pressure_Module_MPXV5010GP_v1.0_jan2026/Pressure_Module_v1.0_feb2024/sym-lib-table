@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Pressure_Module_v2.1_jan2024-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Pressure_Module_v2.1_jan2024-eagle-import.kicad_sym")(options "")(descr ""))
+)

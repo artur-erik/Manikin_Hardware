@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "RobotPatient_BMI270_v1.2_Feb2024")(type "KiCad")(uri "$(KIPRJMOD)/RobotPatient_BMI270_v1.2_Feb2024.pretty")(options "")(descr ""))
+)

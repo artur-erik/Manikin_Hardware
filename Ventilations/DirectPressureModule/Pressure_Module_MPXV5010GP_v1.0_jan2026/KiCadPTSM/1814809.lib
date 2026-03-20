@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 1814809
+#/1440137/877126/2.50/5/2/Connector
+DEF 1814809 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "1814809" 650 200 50 H V L CNN
+F2 "1814809" 650 100 50 H I L CNN
+F3 "http://www.phoenixcontact.com/de/produkte/1814809/pdf" 650 0 50 H I L CNN
+F4 "PCB header, nominal cross section: 0.5 mm?, color: black, nominal current: 6 A, rated voltage (III/2): 160 V, contact surface: Tin, type of contact: Male connector, Number of potentials: 5, Number of rows: 1, Number of positions per row: 5, number of connections: 5, product range: PTSM 0,5/..-HH-THR, pitch: 2.5 mm, mounting: THR soldering, pin layout: Linear pinning, solder pin [P]: 2 mm, Stecksystem: COMBICON COMPACT PTSM, Locking: without, type of packaging: 32 mm wide tape, Article with anti-rotation pin" 650 -100 50 H I L CNN "Description"
+F5 "5.1" 650 -200 50 H I L CNN "Height"
+F6 "651-1814809" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1814809?qs=iCzJi%2FIZBF64fPqDSRGXIg%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Phoenix Contact" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "1814809" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

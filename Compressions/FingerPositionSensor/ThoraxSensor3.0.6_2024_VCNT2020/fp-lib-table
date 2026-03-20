@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ThoraxSensor3.0.6_2024_VCNT2020")(type "KiCad")(uri "$(KIPRJMOD)/ThoraxSensor3.0.6_2024_VCNT2020.pretty")(options "")(descr ""))
+)
