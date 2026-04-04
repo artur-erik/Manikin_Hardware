@@ -1,4 +1,4 @@
-27231439226411407
+27231439557817521
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71813,19 +71813,19 @@ Yellow 5381 Series LED
 2
 2
 Library
-Button_Mini_2.5x1.7mm
+ASCODV-24.000MHZ-LR-T3
 
 
 0
 4
 4
 Library
-Untitled
+Button_Mini_2.5x1.7mm
 
 
 0
-0
-0
+4
+4
 MYRGM080200C41RA
 MURATA_MYRGM080200C41RA_0
 Non-Isolated PoL Module DC DC Converter Output 0.8V - - - 2A 2.7V - 6V Input
