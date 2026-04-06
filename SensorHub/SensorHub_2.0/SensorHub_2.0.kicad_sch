@@ -3377,6 +3377,192 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Library:ASCODV-24.000MHZ-LR-T3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -15960,6 +16146,16 @@
 		)
 		(uuid "86d06335-50aa-4f9f-b1ab-eff3620b7637")
 	)
+	(text "Short \nfor ADC\n"
+		(exclude_from_sim no)
+		(at 137.668 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "989a1472-4b78-40aa-8190-db6eccead6dd")
+	)
 	(text "Pull-Up\n(optional)"
 		(exclude_from_sim no)
 		(at 26.162 114.554 0)
@@ -16052,6 +16248,12 @@
 		(uuid "8afdd944-f6a5-41c1-858d-0940ed3440fc")
 	)
 	(junction
+		(at 132.08 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af29692f-2621-44fb-85a5-3655ba9e23aa")
+	)
+	(junction
 		(at 154.94 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16068,12 +16270,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dcdd7e99-0e4a-4233-b517-c3cb992012bf")
-	)
-	(junction
-		(at 132.08 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f66c74f3-b816-436d-ad31-e405a87961cd")
 	)
 	(junction
 		(at 154.94 171.45)
@@ -16157,6 +16353,16 @@
 		)
 		(uuid "0572a234-0833-4c2c-b0e7-99869452ccfd")
 	)
+	(wire
+		(pts
+			(xy 132.08 129.54) (xy 132.08 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "058fc2c6-93a4-4efe-8a09-8727cc3a8c0f")
+	)
 	(polyline
 		(pts
 			(xy 83.82 152.4) (xy 85.09 152.4)
@@ -16216,16 +16422,6 @@
 			(type default)
 		)
 		(uuid "0e43d6d2-5bfb-4ee8-88cc-fbd342f47e09")
-	)
-	(wire
-		(pts
-			(xy 132.08 116.84) (xy 132.08 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f195b6f-921f-44d8-9983-986b548ddaa8")
 	)
 	(polyline
 		(pts
@@ -17069,6 +17265,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 130.81) (xy 140.97 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b113f58c-7b41-4eda-b0bf-3589ac5b8ede")
+	)
+	(wire
+		(pts
 			(xy 64.77 166.37) (xy 64.77 160.02)
 		)
 		(stroke
@@ -17229,16 +17435,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 134.62) (xy 140.97 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d220f33b-7155-4f6f-b73f-b67e75ee30f6")
-	)
-	(wire
-		(pts
 			(xy 86.36 142.24) (xy 86.36 134.62)
 		)
 		(stroke
@@ -17389,16 +17585,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 130.81) (xy 132.08 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6dd07d2-1f7a-4180-b9b0-8a7f6878a6fa")
-	)
-	(wire
-		(pts
 			(xy 154.94 162.56) (xy 154.94 161.29)
 		)
 		(stroke
@@ -17517,6 +17703,16 @@
 		)
 		(uuid "0f5c6eb3-88d6-4fc9-8573-4f370c5169e3")
 	)
+	(label "ADC{slash}DA"
+		(at 208.28 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "11bc7cdb-6d39-4f57-aced-62eb95566f1c")
+	)
 	(label "+5V"
 		(at 86.36 25.4 180)
 		(effects
@@ -17526,6 +17722,16 @@
 			(justify right bottom)
 		)
 		(uuid "17f84ef0-f34a-401e-a6f8-0452d58112fd")
+	)
+	(label "ADC{slash}DA"
+		(at 132.08 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ba4cfb6-06ed-47d0-b8b4-38c47ab829a0")
 	)
 	(label "+5V"
 		(at 59.69 123.19 180)
@@ -18007,16 +18213,6 @@
 		)
 		(uuid "8948eb54-ed02-4851-8cab-16f70efc9820")
 	)
-	(label "ADC"
-		(at 208.28 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "89496c9a-dd2a-4411-a9b8-fab87ca8b54b")
-	)
 	(label "SCL_0"
 		(at 148.59 50.8 90)
 		(effects
@@ -18237,16 +18433,6 @@
 		)
 		(uuid "af1064ef-b128-43ae-9678-9d019276ca11")
 	)
-	(label "ADC"
-		(at 132.08 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b2e27326-20da-4c52-b43c-45fb3c507ffa")
-	)
 	(label "INT1"
 		(at 52.07 95.25 0)
 		(effects
@@ -18348,14 +18534,14 @@
 		(uuid "c2cba1a8-8b58-4985-a0ed-decca3ed6b3b")
 	)
 	(label "Analog"
-		(at 140.97 134.62 180)
+		(at 140.97 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "c33e73ff-e9fd-4645-b7a9-a00d2381d588")
+		(uuid "c4868250-43ac-48d8-b37e-315f818da0e9")
 	)
 	(label "Can_H"
 		(at 49.53 166.37 90)
@@ -18779,6 +18965,75 @@
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8"
 					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 132.08 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "021b35ab-e6aa-4ed3-8ea4-c89941dc5c0d")
+		(property "Reference" "JP1"
+			(at 134.62 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 134.62 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 132.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 132.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73c65cf0-58a4-4e85-bef9-30996be05b83")
+		)
+		(pin "2"
+			(uuid "1be85e4a-1166-4b6d-aabd-96880bea2197")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -20660,7 +20915,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 132.08 138.43 0)
+		(at 132.08 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20669,7 +20924,7 @@
 		(fields_autoplaced yes)
 		(uuid "383c6c87-aa90-43f9-80d2-227d167d6363")
 		(property "Reference" "C12"
-			(at 135.89 137.1599 0)
+			(at 135.89 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20678,7 +20933,7 @@
 			)
 		)
 		(property "Value" "0.1 uF"
-			(at 135.89 139.6999 0)
+			(at 135.89 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20687,7 +20942,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 133.0452 142.24 0)
+			(at 133.0452 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20696,7 +20951,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 138.43 0)
+			(at 132.08 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20705,7 +20960,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 132.08 138.43 0)
+			(at 132.08 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22807,7 +23062,7 @@
 	)
 	(symbol
 		(lib_id "SensorHub MicroMod Carrier v1.1.0b-eagle-import:microbuilder_GND")
-		(at 132.08 144.78 0)
+		(at 132.08 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22815,7 +23070,7 @@
 		(dnp no)
 		(uuid "8d2e239a-2431-47d7-9d81-1a5c9d4e287e")
 		(property "Reference" "#U$016"
-			(at 132.08 144.78 0)
+			(at 132.08 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22824,7 +23079,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.556 147.32 0)
+			(at 130.556 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -22833,7 +23088,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 144.78 0)
+			(at 132.08 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22842,7 +23097,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 144.78 0)
+			(at 132.08 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22851,7 +23106,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 144.78 0)
+			(at 132.08 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24600,7 +24855,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 127 180)
+		(at 132.08 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24608,7 +24863,7 @@
 		(dnp no)
 		(uuid "da4a4787-583e-49b8-8967-c6bb3b649f6a")
 		(property "Reference" "R11"
-			(at 135.89 127 90)
+			(at 135.89 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24616,7 +24871,7 @@
 			)
 		)
 		(property "Value" "1 K"
-			(at 134.366 126.746 90)
+			(at 134.366 125.476 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24624,7 +24879,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 133.858 127 90)
+			(at 133.858 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24633,7 +24888,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 127 0)
+			(at 132.08 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24642,7 +24897,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 127 0)
+			(at 132.08 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25902,6 +26157,76 @@
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 132.08 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb6e8609-9063-4230-b6bf-6f60f92b350d")
+		(property "Reference" "C19"
+			(at 135.89 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 uF"
+			(at 135.89 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 133.0452 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 132.08 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fde643f-e21c-4873-b57e-9cb41b12d484")
+		)
+		(pin "2"
+			(uuid "fcaaccff-cc3d-4143-818a-0eb254cb8b2d")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8"
+					(reference "C19")
 					(unit 1)
 				)
 			)
