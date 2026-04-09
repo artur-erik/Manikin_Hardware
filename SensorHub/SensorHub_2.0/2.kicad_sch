@@ -1912,16 +1912,6 @@
 		(uuid "a5da4c4c-e98a-4564-9931-488057b1b06a")
 	)
 	(label "Sleep"
-		(at 88.9 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b00c200c-a049-4793-a57a-b94063237112")
-	)
-	(label "Sleep"
 		(at 76.2 74.93 0)
 		(effects
 			(font
@@ -1964,14 +1954,14 @@
 	)
 	(hierarchical_label "Sleep"
 		(shape input)
-		(at 76.2 80.01 0)
+		(at 88.9 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "8adcc418-1a65-48c2-9de1-1d4079f722dc")
+		(uuid "f66e3b14-e5cc-49bc-9315-f20eacd2cd5d")
 	)
 	(symbol
 		(lib_id "power:+5V")

@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "ee994045-6fd6-47ad-8630-782c78277358")
+	(uuid "c118f395-154e-44bd-98b2-988b2fad0d9c")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -735,22 +735,22 @@
 		(uuid "8f0d4f8b-d7b2-44fc-a81b-223b12171b3c")
 	)
 	(junction
-		(at 162.56 113.03)
+		(at 118.11 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "37935a59-688f-485f-9b67-c097dc97d8d0")
+		(uuid "994f7e43-23aa-4e5a-9502-7c5215367f31")
 	)
 	(junction
 		(at 149.86 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "685cb539-4527-4b85-b361-6bb001a32a34")
+		(uuid "e895c083-5c90-4c3b-a8d1-c2564035d40b")
 	)
 	(junction
-		(at 118.11 90.17)
+		(at 162.56 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "994f7e43-23aa-4e5a-9502-7c5215367f31")
+		(uuid "ebfebf16-eb65-4813-a87e-d2b4aacb851e")
 	)
 	(wire
 		(pts
@@ -771,6 +771,16 @@
 			(type default)
 		)
 		(uuid "070eed46-ca8d-4670-87e6-dc3827308d62")
+	)
+	(wire
+		(pts
+			(xy 149.86 107.95) (xy 149.86 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2159c305-acc2-40fc-b7a7-6403edf06ec9")
 	)
 	(wire
 		(pts
@@ -824,16 +834,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 105.41) (xy 149.86 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a5789fc-0184-40c0-9c3b-f4102b43404e")
-	)
-	(wire
-		(pts
 			(xy 127 90.17) (xy 118.11 90.17)
 		)
 		(stroke
@@ -841,16 +841,6 @@
 			(type default)
 		)
 		(uuid "82551079-3deb-405f-90ce-3ccb9fe6cf4e")
-	)
-	(wire
-		(pts
-			(xy 149.86 107.95) (xy 149.86 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f7d4165-b7c1-4fe9-852b-7a1fde13a979")
 	)
 	(wire
 		(pts
@@ -871,6 +861,16 @@
 			(type default)
 		)
 		(uuid "b45b3cbf-903f-4f9a-89aa-dcb7c3890405")
+	)
+	(wire
+		(pts
+			(xy 149.86 105.41) (xy 149.86 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb5aba0c-761b-4c54-a2af-9f174e196983")
 	)
 	(label "Can_L"
 		(at 118.11 116.84 90)
@@ -997,95 +997,6 @@
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8/aeef27da-d3bb-47bb-8fd5-6871969d5416"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Interface_CAN_LIN:TCAN334")
-		(at 162.56 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f374c1e-03e4-4e16-89a6-c20cf55fc1be")
-		(property "Reference" "U9"
-			(at 164.7033 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TCAN334"
-			(at 164.7033 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-8_HandSoldering"
-			(at 162.56 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tcan337.pdf"
-			(at 162.56 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High-Speed CAN Transceiver, 1Mbps, 3.3V supply, low power standby mode, shutdown mode, SOT-23-8/SOIC-8"
-			(at 162.56 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "13067319-759b-47a6-b4e0-35924df0d0f5")
-		)
-		(pin "7"
-			(uuid "98db76dc-7b4a-4bd5-b93c-21ba6d5e5761")
-		)
-		(pin "1"
-			(uuid "be45836c-7aca-4c1f-aa8d-78a9496fb4b9")
-		)
-		(pin "5"
-			(uuid "eb5788bf-67c8-4c9a-99e9-95a41870c1c1")
-		)
-		(pin "3"
-			(uuid "e8a83674-c198-41cb-8d47-a71eb2eabb28")
-		)
-		(pin "6"
-			(uuid "e98bc284-ae10-412a-8fa7-808175d429cb")
-		)
-		(pin "8"
-			(uuid "83b25c01-8706-48be-94be-791762031f4e")
-		)
-		(pin "2"
-			(uuid "53ed0b5c-25a8-4793-8e84-327e559e37e6")
-		)
-		(instances
-			(project "SensorHub_2.0"
-				(path "/9668bc71-8924-498e-982f-628f3083c8b8/aeef27da-d3bb-47bb-8fd5-6871969d5416"
-					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -1292,6 +1203,95 @@
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8/aeef27da-d3bb-47bb-8fd5-6871969d5416"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_CAN_LIN:TCAN334")
+		(at 162.56 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e2c6103-abb4-40cb-afb7-ff03a9508b35")
+		(property "Reference" "U3"
+			(at 164.7033 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TCAN334"
+			(at 164.7033 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-8"
+			(at 162.56 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tcan337.pdf"
+			(at 162.56 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High-Speed CAN Transceiver, 1Mbps, 3.3V supply, low power standby mode, shutdown mode, SOT-23-8/SOIC-8"
+			(at 162.56 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7ff8d560-fbe8-48a9-a597-b53b12b2fe9a")
+		)
+		(pin "5"
+			(uuid "4c6e7ce5-5658-4c0e-94c3-93d3f43c27c4")
+		)
+		(pin "1"
+			(uuid "b5ed7534-6720-4241-b8f9-cb8c9d5bb035")
+		)
+		(pin "4"
+			(uuid "7c7e6b7f-91d1-41a0-85b9-37eedbbee075")
+		)
+		(pin "2"
+			(uuid "c4232627-4a7b-4726-a64e-875069a5e60d")
+		)
+		(pin "8"
+			(uuid "5f33e060-cb3a-457c-ac8a-a3fa7500d74f")
+		)
+		(pin "7"
+			(uuid "cd6f9549-945d-4d3e-a275-b95e36157939")
+		)
+		(pin "6"
+			(uuid "2361502e-ec81-441d-8ca4-55e9ff07c5b5")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/aeef27da-d3bb-47bb-8fd5-6871969d5416"
+					(reference "U3")
 					(unit 1)
 				)
 			)
