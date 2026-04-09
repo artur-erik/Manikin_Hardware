@@ -626,6 +626,22 @@
     [
       "9668bc71-8924-498e-982f-628f3083c8b8",
       "Root"
+    ],
+    [
+      "8a6ccad9-ec56-409c-b066-b602b428230e",
+      "MYRGM080200C41RA +5\\+3.3"
+    ],
+    [
+      "654fedd9-e4dd-4bc9-b3a7-f679d72db815",
+      "RA4E2_microcontroller"
+    ],
+    [
+      "aeef27da-d3bb-47bb-8fd5-6871969d5416",
+      "CAN_transeiver"
+    ],
+    [
+      "cfff8b62-f604-412e-84a3-6cd10c96a62b",
+      "LSM6DSM_IMU"
     ]
   ],
   "text_variables": {}
