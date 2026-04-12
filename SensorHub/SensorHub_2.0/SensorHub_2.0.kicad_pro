@@ -642,6 +642,10 @@
     [
       "cfff8b62-f604-412e-84a3-6cd10c96a62b",
       "LSM6DSM_IMU"
+    ],
+    [
+      "a9b715b2-3c86-4c28-812a-8a4f3eb6a194",
+      "USB_C"
     ]
   ],
   "text_variables": {}

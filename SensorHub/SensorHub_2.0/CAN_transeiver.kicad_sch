@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "c118f395-154e-44bd-98b2-988b2fad0d9c")
+	(uuid "acafeca4-dda3-48d6-ab91-32d9adea10a9")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C"
@@ -804,7 +804,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 106.68) (xy 127 116.84)
+			(xy 127 106.68) (xy 127 114.3)
 		)
 		(stroke
 			(width 0)
@@ -938,7 +938,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 116.84 0)
+		(at 127 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -947,7 +947,7 @@
 		(fields_autoplaced yes)
 		(uuid "13a802d6-195e-4ff8-a7ff-3de85f609dbd")
 		(property "Reference" "#PWR016"
-			(at 127 123.19 0)
+			(at 127 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -956,7 +956,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 121.92 0)
+			(at 127 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -964,7 +964,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 116.84 0)
+			(at 127 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -973,7 +973,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 116.84 0)
+			(at 127 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -982,7 +982,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 116.84 0)
+			(at 127 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)

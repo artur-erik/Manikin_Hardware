@@ -2,9 +2,555 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "196a7f0c-7ca4-4b61-88fc-fea70f63840e")
+	(uuid "e25c8cb7-bd13-44d0-a9d5-78acef34c1d6")
 	(paper "A4")
 	(lib_symbols
+		(symbol "1312020030000:1312020030000"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "1312020030000"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Footprint" "1312020030000:1312020030000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Wurth Elektronik"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "SMT Chip LED Compact  IC RGB, typ (@5mA) 625/525/470 nm;80/120/50 mcd; 120°; AlInGaP+InGaN; Single Wire"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/1312020030000/Wurth+Electronics/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "1312020030000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=14317462&manufacturer=Wurth Elektronik&part_name=1312020030000&search_term=1312020030000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/1312020030000/Wurth+Electronics/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "1312020030000_0_0"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "VDD"
+					(at -4.318 2.54 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+						(justify left top)
+					)
+				)
+				(text "DOUT"
+					(at -4.318 -2.54 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+						(justify left top)
+					)
+				)
+				(text "DIN"
+					(at 4.318 2.54 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+						(justify left top)
+					)
+				)
+				(text "VSS"
+					(at 4.318 -2.54 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+						(justify left top)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ASH7KW-32.768KHZ-L-T:ASH7KW-32.768KHZ-L-T"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at -15.24 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ASH7KW-32.768KHZ-L-T"
+				(at -15.24 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "ASH7KW-32.768KHZ-L-T:XTAL_ASH7KW-32.768KHZ-L-T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "ABRACON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.00mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/ASH7KW-32.768KHZ-L-T/Abracon/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "07.07.2021"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ASH7KW-32.768KHZ-L-T/Abracon/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "ASH7KW-32.768KHZ-L-T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=13807124&manufacturer=ABRACON&part_name=ASH7KW-32.768KHZ-L-T&search_term=ash7kw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "XTAL OSC XO 32.7680KHZ CMOS SMD / 32.768 kHz XO (Standard) CMOS Oscillator 1.2V ~ 5.5V Enable/Disable 4-SMD, No Lead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Abracon"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "ASH7KW-32.768KHZ-L-T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "ASH7KW-32.768KHZ-L-T_0_0"
+				(rectangle
+					(start -15.24 -7.62)
+					(end 15.24 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -20.32 0 0)
+					(length 5.08)
+					(name "OE"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 5.08 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output clock
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "OUTPUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -625,189 +1171,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -931,152 +1294,6 @@
 				)
 			)
 			(embedded_fonts no)
-		)
-		(symbol "Library:ASCODV-24.000MHZ-LR-T3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 1.27 8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ASCODV-24.000MHZ-LR-T3"
-				(at 0.254 14.478 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Library:ASCODV-24.000MHZ-LR-T3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://nl.mouser.com/datasheet/3/184/1/ASCODV.pdf"
-				(at -0.762 11.684 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Standard Clock Oscillators"
-				(at -0.254 18.288 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "ASCODV-24.000MHZ-LR-T3, ASCODV"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ASCODV-24.000MHZ-LR-T3_0_1"
-				(rectangle
-					(start -3.81 6.35)
-					(end 6.35 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ASCODV-24.000MHZ-LR-T3_1_1"
-				(pin input line
-					(at -6.35 3.81 0)
-					(length 2.54)
-					(name "Tri-State"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -6.35 1.27 0)
-					(length 2.54)
-					(name "Output"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 -1.27 0)
-					(length 2.54)
-					(name "Vdd"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 -3.81 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-			(embedded_files)
 		)
 		(symbol "SensorHub MicroMod Carrier v1.1.0b-eagle-import:MOMENTARY-SWITCH-SPST-SMD-5.2-TALL-REDUNDANT"
 			(exclude_from_sim no)
@@ -3166,8 +3383,8 @@
 		)
 	)
 	(rectangle
-		(start 24.13 68.58)
-		(end 78.74 102.87)
+		(start 24.13 34.29)
+		(end 78.74 68.58)
 		(stroke
 			(width 0)
 			(type default)
@@ -3202,8 +3419,8 @@
 		(uuid 7eb7fe74-c253-4fd5-9570-fe2f76cf8302)
 	)
 	(rectangle
-		(start 24.13 21.59)
-		(end 78.74 53.34)
+		(start 24.13 76.2)
+		(end 97.79 107.95)
 		(stroke
 			(width 0)
 			(type default)
@@ -3251,7 +3468,7 @@
 	)
 	(text "User LED\n"
 		(exclude_from_sim no)
-		(at 43.942 123.698 0)
+		(at 43.942 118.364 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3261,7 +3478,7 @@
 	)
 	(text "Clock Oscillator\n"
 		(exclude_from_sim no)
-		(at 42.418 28.448 0)
+		(at 59.69 78.486 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3333,6 +3550,10 @@
 		(color 0 0 0 0)
 		(uuid "ef762f33-5ef8-45a0-b0f0-c7c20097ee27")
 	)
+	(no_connect
+		(at 39.37 157.48)
+		(uuid "3d53f6e5-6926-496b-8866-2d8da74d6e2e")
+	)
 	(wire
 		(pts
 			(xy 128.27 66.04) (xy 135.89 66.04)
@@ -3345,16 +3566,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 146.05) (xy 35.56 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "155b3727-f162-45f2-a478-4b147b08d495")
-	)
-	(wire
-		(pts
 			(xy 135.89 66.04) (xy 135.89 64.77)
 		)
 		(stroke
@@ -3362,6 +3573,16 @@
 			(type default)
 		)
 		(uuid "276413ba-1e9d-472a-82ad-022a33a350a1")
+	)
+	(wire
+		(pts
+			(xy 30.48 130.81) (xy 39.37 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28dfb6b6-a1aa-40fb-bc94-ce9bcd7b3d29")
 	)
 	(wire
 		(pts
@@ -3405,16 +3626,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 132.08) (xy 46.99 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dccee95-15cf-454a-bb4c-4f05c1a95a5f")
-	)
-	(wire
-		(pts
 			(xy 246.38 133.35) (xy 246.38 138.43)
 		)
 		(stroke
@@ -3445,7 +3656,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 43.18) (xy 64.77 40.64)
+			(xy 86.36 99.06) (xy 86.36 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3525,6 +3736,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 152.4) (xy 39.37 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eb40ee7-e613-49ff-9110-93757595ea85")
+	)
+	(wire
+		(pts
 			(xy 78.74 157.48) (xy 78.74 147.32)
 		)
 		(stroke
@@ -3555,13 +3776,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 132.08) (xy 35.56 135.89)
+			(xy 54.61 142.24) (xy 54.61 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8cc17225-5ce0-4af0-9727-d2e0a845394b")
+		(uuid "9417f590-ef57-4144-a602-2e56b16d62d9")
 	)
 	(wire
 		(pts
@@ -3582,6 +3803,16 @@
 			(type default)
 		)
 		(uuid "98fa6467-17e5-4104-b9e7-04c1861059a7")
+	)
+	(wire
+		(pts
+			(xy 39.37 135.89) (xy 39.37 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f74c058-ac49-4733-aba9-e54d9aa946a1")
 	)
 	(wire
 		(pts
@@ -3665,16 +3896,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 146.05) (xy 46.99 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf487f99-5ea9-4844-96d0-f0dda01a01f3")
-	)
-	(wire
-		(pts
 			(xy 146.05 54.61) (xy 146.05 53.34)
 		)
 		(stroke
@@ -3685,7 +3906,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 30.48) (xy 64.77 33.02)
+			(xy 86.36 86.36) (xy 86.36 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3702,16 +3923,6 @@
 			(type solid)
 		)
 		(uuid "dd864e30-7291-45f0-9140-89e8ad9861db")
-	)
-	(wire
-		(pts
-			(xy 46.99 156.21) (xy 46.99 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfe1b623-a2c5-4701-93d0-2e1aeb99cabe")
 	)
 	(wire
 		(pts
@@ -3745,16 +3956,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 156.21) (xy 35.56 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eeb386a6-4322-48a7-b5a6-c875ab8a6cdf")
-	)
-	(wire
-		(pts
 			(xy 85.09 157.48) (xy 85.09 147.32)
 		)
 		(stroke
@@ -3783,18 +3984,28 @@
 		)
 		(uuid "f6d5c8fd-f5fb-4914-9d4c-fe27cb49b606")
 	)
+	(wire
+		(pts
+			(xy 39.37 142.24) (xy 54.61 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe7aec2d-9f25-4fcb-8e5a-b27072de3289")
+	)
 	(label "GND"
-		(at 35.56 45.72 180)
+		(at 74.93 99.06 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "04e69c71-587d-4387-b624-dd3c3702a4ce")
+		(uuid "1baa93e4-0237-490b-9964-d12f747c9485")
 	)
 	(label "SWDIO"
-		(at 69.85 85.09 0)
+		(at 69.85 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3804,7 +4015,7 @@
 		(uuid "1c8f7a2b-939f-492c-8fd2-8d8061e6c5ca")
 	)
 	(label "GND"
-		(at 69.85 87.63 0)
+		(at 69.85 53.34 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -3814,7 +4025,7 @@
 		(uuid "1cc51a67-82dd-43b2-9e4f-b8cdbcb6cccb")
 	)
 	(label "SCL_0"
-		(at 39.37 92.71 0)
+		(at 39.37 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3834,7 +4045,7 @@
 		(uuid "200dfa5a-706c-429f-925e-7e56d6d6fa6c")
 	)
 	(label "+3.3V"
-		(at 57.15 82.55 180)
+		(at 57.15 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3853,8 +4064,8 @@
 		)
 		(uuid "2a0a07e3-2380-4507-aa30-a869327fbe8b")
 	)
-	(label "LED1"
-		(at 35.56 132.08 0)
+	(label "LED"
+		(at 54.61 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3864,7 +4075,7 @@
 		(uuid "335fcc25-d9f8-4eda-abe8-946f2992a9c1")
 	)
 	(label "TXD"
-		(at 39.37 77.47 0)
+		(at 39.37 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3873,18 +4084,8 @@
 		)
 		(uuid "3ba4752b-fd4a-4c26-9ad1-d13f54155511")
 	)
-	(label "EXTAL"
-		(at 35.56 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3e6f0b09-3f6d-4bf1-81b7-4f7d7ac9d0ba")
-	)
 	(label "SWCLK"
-		(at 69.85 90.17 0)
+		(at 69.85 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3894,7 +4095,7 @@
 		(uuid "3f1db80c-6d79-4115-bc2c-103ad57b3154")
 	)
 	(label "GND"
-		(at 57.15 90.17 180)
+		(at 57.15 55.88 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -3934,7 +4135,7 @@
 		(uuid "50210567-544b-4eb6-abcd-cb2de6e6ef30")
 	)
 	(label "GND"
-		(at 57.15 85.09 180)
+		(at 57.15 50.8 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -3944,7 +4145,7 @@
 		(uuid "50e8ae46-599d-4926-961b-50a4f34a7015")
 	)
 	(label "Boot"
-		(at 39.37 85.09 0)
+		(at 39.37 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3954,7 +4155,7 @@
 		(uuid "52c14d05-ef40-427c-a54b-86f0c3ccc5ca")
 	)
 	(label "RES"
-		(at 57.15 92.71 180)
+		(at 57.15 58.42 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -3962,6 +4163,16 @@
 			(justify right bottom)
 		)
 		(uuid "561d905d-6cf4-49a0-a952-a2e6293be0f9")
+	)
+	(label "+3.3V"
+		(at 74.93 88.9 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "56301bcc-e99a-4153-82f5-0a6a15585a36")
 	)
 	(label "RES"
 		(at 124.46 53.34 0)
@@ -3983,8 +4194,18 @@
 		)
 		(uuid "6a237cc1-2d94-4daf-9d20-277dc165bc2f")
 	)
+	(label "EXTAL"
+		(at 74.93 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71556542-f6d6-4903-89d0-f79620a9c1bf")
+	)
 	(label "GND"
-		(at 69.85 82.55 0)
+		(at 69.85 48.26 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -4004,7 +4225,7 @@
 		(uuid "73f8de54-b750-44ad-b137-48be61471587")
 	)
 	(label "EXTAL"
-		(at 38.1 81.28 0)
+		(at 38.1 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4024,7 +4245,7 @@
 		(uuid "843eac70-c155-4983-93b4-df802a541553")
 	)
 	(label "GND"
-		(at 69.85 92.71 0)
+		(at 69.85 58.42 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -4042,16 +4263,6 @@
 			(justify left bottom)
 		)
 		(uuid "8f572a93-a8fb-4521-8d37-16632082ec33")
-	)
-	(label "LED2"
-		(at 46.99 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "94df89d1-9faf-4d09-b5a0-8236d95c27fb")
 	)
 	(label "SWCLK"
 		(at 205.74 95.25 180)
@@ -4104,14 +4315,24 @@
 		(uuid "ac1cb7ab-1b2f-4c8b-9390-a87e170aa153")
 	)
 	(label "+3.3V"
-		(at 35.56 43.18 180)
+		(at 86.36 86.36 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac6edf3f-24d8-4f3c-ae9e-11235f3d9831")
+	)
+	(label "+3.3V"
+		(at 34.29 93.98 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
 			(justify right bottom)
 		)
-		(uuid "ad8c67da-0560-4dbc-aedd-dc6dcc6f10d2")
+		(uuid "b1bc662c-6480-4d8c-abb1-fbe66a866bf7")
 	)
 	(label "GND"
 		(at 246.38 140.97 0)
@@ -4123,16 +4344,6 @@
 		)
 		(uuid "b532d642-b72e-43cd-9050-df1341ed5280")
 	)
-	(label "LED2"
-		(at 246.38 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c6cc8c6b-8f38-4e37-ae4f-2a7d45c8e849")
-	)
 	(label "+3.3V"
 		(at 153.67 99.06 180)
 		(effects
@@ -4143,7 +4354,7 @@
 		)
 		(uuid "e2349da2-90ee-4150-9500-fcfb13535e99")
 	)
-	(label "LED1"
+	(label "LED"
 		(at 246.38 77.47 0)
 		(effects
 			(font
@@ -4154,7 +4365,7 @@
 		(uuid "e45910c0-a3be-4a30-b798-a14aace3d367")
 	)
 	(label "SDA_0"
-		(at 38.1 88.9 0)
+		(at 38.1 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4164,7 +4375,7 @@
 		(uuid "e7e67139-f7f4-4031-aafa-faa1e0ab8c46")
 	)
 	(label "VCL"
-		(at 57.15 87.63 180)
+		(at 57.15 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4182,16 +4393,6 @@
 			(justify right bottom)
 		)
 		(uuid "f28f8bac-f2dd-4624-aba6-f184e0bb3516")
-	)
-	(label "+3.3V"
-		(at 35.56 38.1 180)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right bottom)
-		)
-		(uuid "f9cef205-ccea-437f-b6b0-2175c9367203")
 	)
 	(hierarchical_label "SDA_0"
 		(shape input)
@@ -4497,6 +4698,221 @@
 		)
 	)
 	(symbol
+		(lib_id "ASH7KW-32.768KHZ-L-T:ASH7KW-32.768KHZ-L-T")
+		(at 54.61 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "046a6db2-fbc8-452d-b6ba-83ec23237568")
+		(property "Reference" "Y1"
+			(at 54.61 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ASH7KW-32.768KHZ-L-T"
+			(at 54.61 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ASH7KW-32.768KHZ-L-T:XTAL_ASH7KW-32.768KHZ-L-T"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "ABRACON"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.00mm"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ASH7KW-32.768KHZ-L-T/Abracon/view-part/?ref=eda"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "07.07.2021"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ASH7KW-32.768KHZ-L-T/Abracon/view-part/?ref=snap"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ASH7KW-32.768KHZ-L-T"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=13807124&manufacturer=ABRACON&part_name=ASH7KW-32.768KHZ-L-T&search_term=ash7kw"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "XTAL OSC XO 32.7680KHZ CMOS SMD / 32.768 kHz XO (Standard) CMOS Oscillator 1.2V ~ 5.5V Enable/Disable 4-SMD, No Lead"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Abracon"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "ASH7KW-32.768KHZ-L-T"
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "9fb478c4-cef3-4dc7-9e6b-2314ad54a73c")
+		)
+		(pin "1"
+			(uuid "866643f1-2660-473d-be10-7272c3c81bc4")
+		)
+		(pin "3"
+			(uuid "4e97fda8-baba-414a-966a-cab59c26b431")
+		)
+		(pin "2"
+			(uuid "6b3cc31f-06fe-461a-afcd-51034be20175")
+		)
+		(instances
+			(project ""
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 135.89 48.26 0)
 		(unit 1)
@@ -4561,6 +4977,72 @@
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bb80efa-b9bb-4f53-adca-74cbb1e41bd8")
+		(property "Reference" "#PWR032"
+			(at 30.48 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d80b1b4-5225-4e1d-a9dd-4c086dccb2ec")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -4708,35 +5190,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 46.99 139.7 0)
+		(lib_id "power:GND")
+		(at 30.48 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2f9c64ab-b1e5-4d09-9432-2e7448423cff")
-		(property "Reference" "R8"
-			(at 49.53 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.33 K"
-			(at 49.53 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 45.212 139.7 90)
+		(uuid "3396cf94-c3d9-4557-a745-9213e54e0a0c")
+		(property "Reference" "#PWR017"
+			(at 30.48 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4744,8 +5208,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 46.99 139.7 0)
+		(property "Value" "GND"
+			(at 30.48 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,8 +5225,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 46.99 139.7 0)
+		(property "Datasheet" ""
+			(at 30.48 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4763,15 +5244,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "05d47981-49fe-46d3-a445-70bc2da1c14b")
-		)
-		(pin "2"
-			(uuid "51aae178-31ec-4ddb-8e42-0f67e4290dbb")
+			(uuid "781a7694-3c1c-4c5f-83be-e267bbff5254")
 		)
 		(instances
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
-					(reference "R8")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -4848,7 +5326,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Top_Bottom")
-		(at 62.23 87.63 0)
+		(at 62.23 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4857,7 +5335,7 @@
 		(fields_autoplaced yes)
 		(uuid "366b821d-4c42-4d70-9666-fc9dd14f1d17")
 		(property "Reference" "J5"
-			(at 63.5 76.2 0)
+			(at 63.5 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4865,7 +5343,7 @@
 			)
 		)
 		(property "Value" "Conn_02x05_Top_Bottom"
-			(at 63.5 78.74 0)
+			(at 63.5 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4873,7 +5351,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_2x05_P1.00mm_Vertical"
-			(at 62.23 87.63 0)
+			(at 62.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4882,7 +5360,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 87.63 0)
+			(at 62.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4891,7 +5369,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 62.23 87.63 0)
+			(at 62.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5008,74 +5486,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SensorHub MicroMod Carrier v1.1.0b-eagle-import:microbuilder_GND")
-		(at 35.56 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "58349448-16ed-4aa1-916d-cd951cecdf19")
-		(property "Reference" "#U$02"
-			(at 35.56 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 34.036 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 35.56 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "07080c1a-348e-4d2f-b908-1605dde01c4d")
-		)
-		(instances
-			(project "SensorHub_2.0"
-				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
-					(reference "#U$02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 39.37 85.09 90)
+		(at 39.37 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5083,7 +5495,7 @@
 		(dnp no)
 		(uuid "5aecfa2e-1d60-4009-83bc-c11936595aa8")
 		(property "Reference" "TP5"
-			(at 30.988 89.662 0)
+			(at 30.988 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5092,7 +5504,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 32.5119 89.662 0)
+			(at 32.5119 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5102,7 +5514,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 39.37 80.01 0)
+			(at 39.37 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5111,7 +5523,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 80.01 0)
+			(at 39.37 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5120,7 +5532,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 39.37 85.09 0)
+			(at 39.37 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5135,6 +5547,75 @@
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
 					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 30.48 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c0ffaa1-c84f-46f8-993e-91b8f7d5732d")
+		(property "Reference" "C9"
+			(at 37.338 156.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1 uF"
+			(at 37.338 153.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 31.4452 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 30.48 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aabc47e6-3376-4d53-a643-cd52fc5e122f")
+		)
+		(pin "2"
+			(uuid "005ef6c8-0d27-4ded-bc23-557b56d4b35f")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -5757,35 +6238,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 35.56 149.86 90)
+		(lib_id "power:GND")
+		(at 54.61 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6b729102-a07b-4749-8956-66e5ec8800d0")
-		(property "Reference" "D1"
-			(at 39.37 150.1774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 39.37 152.7174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 35.56 149.86 0)
+		(uuid "665e2bcb-2bee-4046-961a-1c681d0d2f8e")
+		(property "Reference" "#PWR030"
+			(at 54.61 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5793,8 +6256,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 35.56 149.86 0)
+		(property "Value" "GND"
+			(at 54.61 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5802,8 +6273,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 35.56 149.86 0)
+		(property "Datasheet" ""
+			(at 54.61 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5811,8 +6282,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 35.56 149.86 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,15 +6292,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce7fd3dd-86d8-43f1-b8de-8a1a0bbadc05")
-		)
-		(pin "2"
-			(uuid "04eb7c8e-c51d-4b02-a4da-4072c7cc87ec")
+			(uuid "11e39db9-c3e6-4021-9063-a74899049968")
 		)
 		(instances
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
-					(reference "D1")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -5896,151 +6364,6 @@
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 46.99 149.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6cd2e58d-5cf9-45e8-9c5c-8cde9495d534")
-		(property "Reference" "D2"
-			(at 50.8 150.1774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 50.8 152.7174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 46.99 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 46.99 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 46.99 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b652139-2d71-4f2c-9b98-efcdaf0b0f50")
-		)
-		(pin "2"
-			(uuid "f3b40156-75d1-4f4e-ae0c-e417800c06cc")
-		)
-		(instances
-			(project "SensorHub_2.0"
-				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SensorHub MicroMod Carrier v1.1.0b-eagle-import:microbuilder_GND")
-		(at 46.99 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ba65025-e22e-4d90-90c9-c01bb3889a64")
-		(property "Reference" "#U$03"
-			(at 46.99 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 45.466 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fab442f9-5a49-4d3a-81e2-ee23d4c5690a")
-		)
-		(instances
-			(project "SensorHub_2.0"
-				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
-					(reference "#U$03")
 					(unit 1)
 				)
 			)
@@ -6251,8 +6574,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 54.61 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87915366-55ae-4a8f-89de-a2273ba51ea2")
+		(property "Reference" "#PWR031"
+			(at 54.61 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2ccb569-c9e5-4d14-abf2-b872a02c88d8")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 39.37 92.71 90)
+		(at 39.37 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6260,7 +6649,7 @@
 		(dnp no)
 		(uuid "91ff36d8-f8a2-4b49-b1c1-a4ce252c42e8")
 		(property "Reference" "TP3"
-			(at 30.988 97.282 0)
+			(at 30.988 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6269,7 +6658,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 32.5119 97.282 0)
+			(at 32.5119 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6279,7 +6668,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 39.37 87.63 0)
+			(at 39.37 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6288,7 +6677,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 87.63 0)
+			(at 39.37 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6297,7 +6686,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 39.37 92.71 0)
+			(at 39.37 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6312,6 +6701,170 @@
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1312020030000:1312020030000")
+		(at 46.99 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "941e45f7-2c9e-4246-a970-9742a1e3f6b6")
+		(property "Reference" "D5"
+			(at 45.212 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1312020030000"
+			(at 45.212 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1312020030000:1312020030000"
+			(at 46.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Wurth Elektronik"
+			(at 46.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "SMT Chip LED Compact  IC RGB, typ (@5mA) 625/525/470 nm;80/120/50 mcd; 120°; AlInGaP+InGaN; Single Wire"
+			(at 46.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 46.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 46.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/1312020030000/Wurth+Electronics/view-part/?ref=snap"
+			(at 46.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "1312020030000"
+			(at 46.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=14317462&manufacturer=Wurth Elektronik&part_name=1312020030000&search_term=1312020030000"
+			(at 46.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 46.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/1312020030000/Wurth+Electronics/view-part/?ref=eda"
+			(at 46.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f92746d9-b24f-49ce-895b-c41ca7396531")
+		)
+		(pin "4"
+			(uuid "b1bce88d-bf77-46fe-99f9-6ba4c0963835")
+		)
+		(pin "1"
+			(uuid "80e71ef8-5b59-4ea1-9b2d-990ea942a422")
+		)
+		(pin "2"
+			(uuid "ae2f5049-52f4-4ba5-8f4a-fa455d2dfe3d")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -6589,6 +7142,239 @@
 		)
 	)
 	(symbol
+		(lib_id "1312020030000:1312020030000")
+		(at 46.99 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b810b1dc-a51d-494d-b350-959cfbeb25a8")
+		(property "Reference" "D4"
+			(at 45.72 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1312020030000"
+			(at 45.72 147.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1312020030000:1312020030000"
+			(at 46.99 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Wurth Elektronik"
+			(at 46.99 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "SMT Chip LED Compact  IC RGB, typ (@5mA) 625/525/470 nm;80/120/50 mcd; 120°; AlInGaP+InGaN; Single Wire"
+			(at 46.99 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 46.99 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 46.99 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/1312020030000/Wurth+Electronics/view-part/?ref=snap"
+			(at 46.99 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "1312020030000"
+			(at 46.99 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=14317462&manufacturer=Wurth Elektronik&part_name=1312020030000&search_term=1312020030000"
+			(at 46.99 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 46.99 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/1312020030000/Wurth+Electronics/view-part/?ref=eda"
+			(at 46.99 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b77b3d5f-a435-409f-9bdc-7e2b1dff882e")
+		)
+		(pin "4"
+			(uuid "a284aa9d-85d5-43b1-bcf6-174f4cdeb531")
+		)
+		(pin "1"
+			(uuid "bc142c53-0155-4fcb-8327-877dad936c8e")
+		)
+		(pin "2"
+			(uuid "31537321-ca12-4f47-ae91-d6d0646da732")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 30.48 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9e4426a-3116-4163-8bda-eb1211e1436d")
+		(property "Reference" "C15"
+			(at 37.338 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1 uF"
+			(at 37.338 132.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 31.4452 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 30.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f043e46-3805-46f9-a0dd-16d1ee5443dd")
+		)
+		(pin "2"
+			(uuid "350c070c-88e6-479a-8592-fac08fd5418d")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 130.81 123.19 0)
 		(unit 1)
@@ -6797,7 +7583,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 38.1 88.9 90)
+		(at 38.1 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6805,7 +7591,7 @@
 		(dnp no)
 		(uuid "d1d4d74a-37c3-41eb-8b46-31a90c37ccad")
 		(property "Reference" "TP4"
-			(at 29.718 93.472 0)
+			(at 29.718 59.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6814,7 +7600,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 31.2419 93.472 0)
+			(at 31.2419 59.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6824,7 +7610,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 38.1 83.82 0)
+			(at 38.1 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6833,7 +7619,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 83.82 0)
+			(at 38.1 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6842,7 +7628,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 38.1 88.9 0)
+			(at 38.1 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6863,78 +7649,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 35.56 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4136aaf-b358-4d91-be8f-ddbc1eeeba7d")
-		(property "Reference" "R3"
-			(at 38.1 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.33 K"
-			(at 38.1 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 33.782 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 35.56 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a71d94e2-cb83-4e29-a48e-ce080e3d92de")
-		)
-		(pin "2"
-			(uuid "bf079e2e-4690-468a-9ae0-3c6d2f5cbc55")
-		)
-		(instances
-			(project "SensorHub_2.0"
-				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 64.77 43.18 0)
+		(at 86.36 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6943,7 +7659,7 @@
 		(fields_autoplaced yes)
 		(uuid "e78b2e58-7583-4d7e-88fa-61ed566d5b38")
 		(property "Reference" "#PWR024"
-			(at 64.77 49.53 0)
+			(at 86.36 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6952,7 +7668,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 48.26 0)
+			(at 86.36 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6960,7 +7676,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 43.18 0)
+			(at 86.36 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6969,7 +7685,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 43.18 0)
+			(at 86.36 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6978,7 +7694,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 43.18 0)
+			(at 86.36 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7066,7 +7782,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 39.37 77.47 90)
+		(at 39.37 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7074,7 +7790,7 @@
 		(dnp no)
 		(uuid "e9c28c57-7561-405d-9a5b-9c324b98d0a6")
 		(property "Reference" "TP8"
-			(at 30.988 82.042 0)
+			(at 30.988 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7083,7 +7799,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 32.5119 82.042 0)
+			(at 32.5119 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7093,7 +7809,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 39.37 72.39 0)
+			(at 39.37 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7102,7 +7818,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 72.39 0)
+			(at 39.37 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7111,7 +7827,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 39.37 77.47 0)
+			(at 39.37 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7133,7 +7849,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 38.1 81.28 90)
+		(at 38.1 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7141,7 +7857,7 @@
 		(dnp no)
 		(uuid "eabc0164-e9ba-4df4-b739-c21994f23a70")
 		(property "Reference" "TP6"
-			(at 29.718 85.852 0)
+			(at 29.718 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7150,7 +7866,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 31.2419 85.852 0)
+			(at 31.2419 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7160,7 +7876,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 38.1 76.2 0)
+			(at 38.1 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7169,7 +7885,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 76.2 0)
+			(at 38.1 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7178,7 +7894,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 38.1 81.28 0)
+			(at 38.1 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7336,7 +8052,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 64.77 36.83 0)
+		(at 86.36 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7344,7 +8060,7 @@
 		(dnp no)
 		(uuid "f370e3e8-a7ec-4c48-816a-7eff115dfb62")
 		(property "Reference" "C16"
-			(at 68.072 35.56 0)
+			(at 89.662 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7353,7 +8069,7 @@
 			)
 		)
 		(property "Value" "0.1 uF"
-			(at 68.072 38.1 0)
+			(at 89.662 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7362,7 +8078,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 65.7352 40.64 0)
+			(at 87.3252 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7371,7 +8087,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 36.83 0)
+			(at 86.36 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7380,7 +8096,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 64.77 36.83 0)
+			(at 86.36 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7398,81 +8114,6 @@
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Library:ASCODV-24.000MHZ-LR-T3")
-		(at 41.91 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fdd398d4-7ede-44f3-a0fe-c213cbeba3f1")
-		(property "Reference" "U5"
-			(at 29.718 30.734 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ASCODV-24.000MHZ-LR-T3"
-			(at 29.718 33.274 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Library:ASCODV-24.000MHZ-LR-T3"
-			(at 41.91 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://nl.mouser.com/datasheet/3/184/1/ASCODV.pdf"
-			(at 41.148 30.226 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Standard Clock Oscillators"
-			(at 41.656 23.622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53ae5849-aa7c-449b-bdec-01cd18e7b983")
-		)
-		(pin "3"
-			(uuid "c1d47603-323a-4240-b4c6-3616c6d95f20")
-		)
-		(pin "4"
-			(uuid "a1028ce9-0724-4838-a5ba-e72e79eec90b")
-		)
-		(pin "2"
-			(uuid "75b02c6e-9964-4052-ae97-dbce946ab27e")
-		)
-		(instances
-			(project "SensorHub_2.0"
-				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
-					(reference "U5")
 					(unit 1)
 				)
 			)
