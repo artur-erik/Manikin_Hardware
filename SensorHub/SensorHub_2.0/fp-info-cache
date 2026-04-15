@@ -1,4 +1,18 @@
-27281160177429849
+27286489426711725
+1312020030000
+1312020030000
+
+
+0
+4
+4
+ASH7KW-32.768KHZ-L-T
+XTAL_ASH7KW-32.768KHZ-L-T
+
+
+0
+4
+4
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62390,6 +62404,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+FTSH-105-01-L-DV-K-A
+SAMTEC_FTSH-105-01-L-DV-K-A
+translated Allegro footprint
+
+0
+10
+10
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -72016,12 +72037,12 @@ ASCODV-24.000MHZ-LR-T3
 4
 4
 Library
-Button_Mini_2.5x1.7mm
+B3U-1000P(M)-B
 
 
 0
-4
-4
+2
+2
 MYRGM080200C41RA
 MURATA_MYRGM080200C41RA_0
 Non-Isolated PoL Module DC DC Converter Output 0.8V - - - 2A 2.7V - 6V Input

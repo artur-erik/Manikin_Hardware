@@ -1289,29 +1289,53 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SensorHub MicroMod Carrier v1.1.0b-eagle-import:MOMENTARY-SWITCH-SPST-SMD-5.2-TALL-REDUNDANT"
+		(symbol "Library:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "S"
-				(at 0 1.524 0)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
 				(effects
 					(font
-						(size 1.778 1.778)
+						(size 1.27 1.27)
 					)
-					(justify bottom)
+					(justify left)
 				)
 			)
-			(property "Value" ""
-				(at 0 -0.508 0)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
 				(effects
 					(font
-						(size 1.778 1.778)
+						(size 1.27 1.27)
 					)
-					(justify top)
 				)
 			)
-			(property "Footprint" "SensorHub MicroMod Carrier v1.1.0b:TACTILE_SWITCH_SMD_5.2MM"
+			(property "Footprint" "Library:B3U-1000P(M)-B"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1320,7 +1344,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1329,30 +1353,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Momentary Switch (Pushbutton) - SPST\n\nNormally-open (NO) SPST momentary switches (buttons, pushbuttons).\n\nVariants PTH-12MM - 12mm square, through-hole\n\n• https://www.sparkfun.com/products/9190 Momentary Pushbutton Switch - 12mm Square (COM-09190)\n\nPTH-6.0MM, PTH-6.0MM-KIT - 6.0mm square, through-hole\n\n• https://www.sparkfun.com/products/97 Mini Pushbutton Switch (COM-00097)\n• KIT package intended for soldering kit's - only one side of pads' copper is exposed.\n\nPTH-RIGHT-ANGLE-KIT - Right-angle, through-hole\n\n• https://www.sparkfun.com/products/10791 Right Angle Tactile Button - Used on https://www.sparkfun.com/products/11734  SparkFun BigTime Watch Kit\n\nSMD-12MM - 12mm square, surface-mount\n\n• https://www.sparkfun.com/products/12993 Tactile Button - SMD (12mm) (COM-12993)\n• Used on https://www.sparkfun.com/products/11888 SparkFun PicoBoard\n\nSMD-4.5MM - 4.5mm Square Trackball Switch\n\n• Used on https://www.sparkfun.com/products/13169 SparkFun Blackberry Trackballer Breakout\n\nSMD-4.6MMX2.8MM -  4.60mm x 2.80mm, surface mount\n\n• Used on https://www.sparkfun.com/products/17717 SparkFun Pro Micro - RP2040\n\nSMD-5.2MM, SMD-5.2-REDUNDANT - 5.2mm square, surface-mount\n\n• https://www.sparkfun.com/products/8720 Mini Pushbutton Switch - SMD (COM-08720)\n• Used on https://www.sparkfun.com/products/11114 Arduino Pro Mini\n• REDUNDANT package connects both switch circuits together\n\nSMD-6.0X3.5MM - 6.0 x 3.5mm, surface mount\n\n• https://www.sparkfun.com/products/8229 Momentary Reset Switch SMD (COM-08229)\n\nSMD-6.2MM-TALL - 6.2mm square, surface mount\n\n• https://www.sparkfun.com/products/12992 Tactile Button - SMD (6mm)\n• Used on https://www.sparkfun.com/products/12651 SparkFun Digital Sandbox\n\nSMD-RIGHT-ANGLE - Right-angle, surface mount\n\n• Used on https://www.sparkfun.com/products/13036 SparkFun Block for Intel® Edison - Arduino"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MOMENTARY-SWITCH-SPST-SMD-5.2-TALL-REDUNDANT_1_0"
+			(symbol "SW_Push_0_1"
 				(circle
-					(center -2.54 0)
-					(radius 0.127)
+					(center -2.032 0)
+					(radius 0.508)
 					(stroke
-						(width 0.4064)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1360,11 +1367,22 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy 1.905 1.27)
+						(xy 0 1.27) (xy 0 3.048)
 					)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1372,22 +1390,11 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 0) (xy 2.54 0)
+						(xy 2.54 1.27) (xy -2.54 1.27)
 					)
 					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.127)
-					(stroke
-						(width 0.4064)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -1399,68 +1406,32 @@
 					(name "1"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "1"
+					(name "2"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -3482,7 +3453,7 @@
 	)
 	(text "Reset/Boot\n"
 		(exclude_from_sim no)
-		(at 141.986 38.354 0)
+		(at 141.986 34.544 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3491,13 +3462,13 @@
 		(uuid "d28d22d7-d593-45b3-9de6-71043f298e3e")
 	)
 	(junction
-		(at 128.27 53.34)
+		(at 128.27 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "321e60f7-eb0b-4fef-8bfa-5c401d8696d2")
 	)
 	(junction
-		(at 146.05 53.34)
+		(at 146.05 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4480c658-1c94-4506-a52f-d6638f68d6ea")
@@ -3509,7 +3480,7 @@
 		(uuid "9138d7f4-e4a0-482c-80b6-99966b28f8e5")
 	)
 	(junction
-		(at 135.89 53.34)
+		(at 135.89 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aba40a5d-01c7-495d-9e77-4ba5b4a86d6f")
@@ -3536,7 +3507,7 @@
 		(at 135.89 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ef47b43b-a4fd-4925-9101-535504791134")
+		(uuid "e345f5c4-a7b3-4125-ac16-60984216813c")
 	)
 	(junction
 		(at 205.74 39.37)
@@ -3572,16 +3543,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 66.04) (xy 135.89 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "276413ba-1e9d-472a-82ad-022a33a350a1")
-	)
-	(wire
-		(pts
 			(xy 30.48 130.81) (xy 39.37 130.81)
 		)
 		(stroke
@@ -3602,7 +3563,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 53.34) (xy 135.89 53.34)
+			(xy 128.27 49.53) (xy 135.89 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3622,7 +3583,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 66.04) (xy 128.27 63.5)
+			(xy 128.27 66.04) (xy 128.27 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3712,7 +3673,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 53.34) (xy 135.89 52.07)
+			(xy 135.89 49.53) (xy 135.89 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3722,7 +3683,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 53.34) (xy 154.94 53.34)
+			(xy 146.05 49.53) (xy 154.94 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3772,16 +3733,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 64.77) (xy 146.05 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8aaa63ed-ea1c-4bfa-bb65-8a5cca6e7d57")
-	)
-	(wire
-		(pts
 			(xy 54.61 142.24) (xy 54.61 152.4)
 		)
 		(stroke
@@ -3822,7 +3773,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 52.07) (xy 146.05 53.34)
+			(xy 146.05 48.26) (xy 146.05 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3832,7 +3783,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 44.45) (xy 135.89 43.18)
+			(xy 135.89 40.64) (xy 135.89 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3852,17 +3803,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 66.04) (xy 135.89 64.77)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "bd571e43-52e3-42b7-9c47-5e973e651593")
-	)
-	(wire
-		(pts
-			(xy 124.46 53.34) (xy 128.27 53.34)
+			(xy 124.46 49.53) (xy 128.27 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3872,7 +3813,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 54.61) (xy 135.89 53.34)
+			(xy 135.89 49.53) (xy 135.89 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3902,7 +3843,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 54.61) (xy 146.05 53.34)
+			(xy 146.05 49.53) (xy 146.05 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3919,6 +3860,16 @@
 			(type default)
 		)
 		(uuid "d2c755e8-d781-4559-b5dd-aaf8ef4a929e")
+	)
+	(wire
+		(pts
+			(xy 135.89 62.23) (xy 135.89 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d557120e-368f-4cb9-9f1a-6f89dac1b61a")
 	)
 	(wire
 		(pts
@@ -3942,6 +3893,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 62.23) (xy 146.05 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e587dd75-79de-4de0-86b8-65942feea1b7")
+	)
+	(wire
+		(pts
 			(xy 153.67 123.19) (xy 153.67 123.1857)
 		)
 		(stroke
@@ -3952,7 +3913,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 43.18) (xy 146.05 44.45)
+			(xy 146.05 39.37) (xy 146.05 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3982,7 +3943,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 55.88) (xy 128.27 53.34)
+			(xy 128.27 52.07) (xy 128.27 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4051,7 +4012,7 @@
 		(uuid "200dfa5a-706c-429f-925e-7e56d6d6fa6c")
 	)
 	(label "+3.3V"
-		(at 135.89 43.18 0)
+		(at 135.89 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4069,6 +4030,16 @@
 			(justify left bottom)
 		)
 		(uuid "335fcc25-d9f8-4eda-abe8-946f2992a9c1")
+	)
+	(label "RES"
+		(at 41.91 62.23 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "3aaeacad-7b1f-4970-a488-ff2e7fb81cd3")
 	)
 	(label "TXD"
 		(at 43.18 43.18 0)
@@ -4101,7 +4072,7 @@
 		(uuid "47649dca-07ce-41d7-b9a2-7780e9b8ff34")
 	)
 	(label "+3.3V"
-		(at 146.05 43.18 0)
+		(at 146.05 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4131,7 +4102,7 @@
 		(uuid "56301bcc-e99a-4153-82f5-0a6a15585a36")
 	)
 	(label "RES"
-		(at 124.46 53.34 0)
+		(at 124.46 49.53 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -4201,7 +4172,7 @@
 		(uuid "843eac70-c155-4983-93b4-df802a541553")
 	)
 	(label "Boot"
-		(at 149.86 53.34 0)
+		(at 149.86 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4480,6 +4451,17 @@
 		)
 		(uuid "b88a8cbb-537c-4a0b-a097-9e99c08d111f")
 	)
+	(hierarchical_label "GP2"
+		(shape input)
+		(at 246.38 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf77026c-8763-4e84-a85f-2a82e6441e6b")
+	)
 	(hierarchical_label "GP1"
 		(shape input)
 		(at 246.38 113.03 0)
@@ -4490,6 +4472,17 @@
 			(justify left)
 		)
 		(uuid "c85b8f11-9623-4277-a704-8491099c65dd")
+	)
+	(hierarchical_label "GP3"
+		(shape input)
+		(at 246.38 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0b139d3-0a66-4da4-b65b-de595c03b123")
 	)
 	(hierarchical_label "USB_DP"
 		(shape input)
@@ -5102,17 +5095,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 135.89 48.26 0)
+		(lib_id "Connector:TestPoint")
+		(at 41.91 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d1574ce-1960-42ef-a404-18245510998e")
-		(property "Reference" "R4"
-			(at 138.43 46.9899 0)
+		(uuid "0b03e1c1-6813-4e12-9f62-ed5e6cae6541")
+		(property "Reference" "TP1"
+			(at 33.528 66.802 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5120,17 +5112,18 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7 K"
-			(at 138.43 49.5299 0)
+		(property "Value" "TestPoint"
+			(at 35.0519 66.802 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 134.112 48.26 90)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 41.91 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5139,7 +5132,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 48.26 0)
+			(at 41.91 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 41.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea0d0c1e-285a-4c7e-832e-5332bf12006c")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d1574ce-1960-42ef-a404-18245510998e")
+		(property "Reference" "R4"
+			(at 138.43 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 K"
+			(at 138.43 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 134.112 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5148,7 +5208,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 135.89 48.26 0)
+			(at 135.89 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5232,81 +5292,6 @@
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SensorHub MicroMod Carrier v1.1.0b-eagle-import:MOMENTARY-SWITCH-SPST-SMD-5.2-TALL-REDUNDANT")
-		(at 146.05 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c6ef0b2-913b-48af-b1fc-cb37c1443e66")
-		(property "Reference" "S2"
-			(at 144.526 59.69 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "Boot"
-			(at 146.812 60.452 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" "Library:Button_Mini_2.5x1.7mm"
-			(at 146.05 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33547ec6-4e19-42b4-9294-03cfa06266e3")
-		)
-		(pin "2"
-			(uuid "86adde05-90d9-487e-be56-c8fb05c0a820")
-		)
-		(pin "3"
-			(uuid "a8e0c0c0-e016-42ee-865c-77056f3796ad")
-		)
-		(pin "4"
-			(uuid "0572f914-3b57-464c-8408-e605170010c7")
-		)
-		(instances
-			(project "SensorHub_2.0"
-				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
-					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -6968,6 +6953,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Library:SW_Push")
+		(at 135.89 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "966207a0-d906-438a-9a9a-cc7f39eb2e64")
+		(property "Reference" "SW1"
+			(at 137.16 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 137.16 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:B3U-1000P(M)-B"
+			(at 130.81 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 135.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a75dded-e058-4296-9edf-eeb4ee97c2c2")
+		)
+		(pin "1"
+			(uuid "28ab17e9-696f-4210-becb-d88459e086ad")
+		)
+		(instances
+			(project ""
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SensorHub MicroMod Carrier v1.1.0b-eagle-import:microbuilder_GND")
 		(at 146.05 73.66 0)
 		(unit 1)
@@ -7035,7 +7090,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 128.27 59.69 0)
+		(at 128.27 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7043,7 +7098,7 @@
 		(dnp no)
 		(uuid "9bc13cca-568d-414d-bf12-85fe84d9ac11")
 		(property "Reference" "C7"
-			(at 122.682 61.214 90)
+			(at 122.682 57.404 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7052,7 +7107,7 @@
 			)
 		)
 		(property "Value" "1 uF"
-			(at 124.46 61.214 90)
+			(at 124.46 57.404 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7061,7 +7116,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 129.2352 63.5 0)
+			(at 129.2352 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7070,7 +7125,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 59.69 0)
+			(at 128.27 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7079,7 +7134,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 128.27 59.69 0)
+			(at 128.27 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7532,81 +7587,6 @@
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SensorHub MicroMod Carrier v1.1.0b-eagle-import:MOMENTARY-SWITCH-SPST-SMD-5.2-TALL-REDUNDANT")
-		(at 135.89 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c3b63365-c2f6-4039-b2ee-ab35258600f7")
-		(property "Reference" "S1"
-			(at 134.366 59.69 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "Reset"
-			(at 136.398 59.69 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" "Library:Button_Mini_2.5x1.7mm"
-			(at 135.89 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49225629-73d5-42a1-8bd9-37b1e2609d2d")
-		)
-		(pin "2"
-			(uuid "4a9fbe76-182e-4a2d-b30d-b2217f3a1b47")
-		)
-		(pin "3"
-			(uuid "e219f63d-eab4-4a39-acba-5877036b91b8")
-		)
-		(pin "4"
-			(uuid "fb22825d-101d-424e-ad0f-c6921cbb16f3")
-		)
-		(instances
-			(project "SensorHub_2.0"
-				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
-					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -8079,7 +8059,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 146.05 48.26 0)
+		(at 146.05 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8088,7 +8068,7 @@
 		(fields_autoplaced yes)
 		(uuid "ece1774d-53de-4bea-b421-a66531191a7a")
 		(property "Reference" "R6"
-			(at 148.59 46.9899 0)
+			(at 148.59 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8097,7 +8077,7 @@
 			)
 		)
 		(property "Value" "10 K"
-			(at 148.59 49.5299 0)
+			(at 148.59 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8106,7 +8086,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 144.272 48.26 90)
+			(at 144.272 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8115,7 +8095,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 48.26 0)
+			(at 146.05 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8124,7 +8104,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 146.05 48.26 0)
+			(at 146.05 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8211,6 +8191,76 @@
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:SW_Push")
+		(at 146.05 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f51d00c9-eedd-4d51-a9e4-51e0f3254473")
+		(property "Reference" "SW2"
+			(at 147.32 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 147.32 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Library:B3U-1000P(M)-B"
+			(at 140.97 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 146.05 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "17781516-d784-404a-b3fd-18e6528521db")
+		)
+		(pin "1"
+			(uuid "5cf36d90-d8bd-4a99-b05b-090e81eb5515")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
+					(reference "SW2")
 					(unit 1)
 				)
 			)

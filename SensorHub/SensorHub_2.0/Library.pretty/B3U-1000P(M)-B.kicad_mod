@@ -1,4 +1,4 @@
-(footprint "Button_Mini_2.5x1.7mm"
+(footprint "B3U-1000P(M)-B"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Button_Mini_2.5x1.7mm"
+	(property "Value" "B3U-1000P(M)-B"
 		(at 0 4 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -55,8 +55,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -1.5 -0.5)
-		(end 1.5 1.5)
+		(start -1.5 -1.25)
+		(end 1.49 1.24)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -66,11 +66,22 @@
 		(uuid "249de6d4-f6b9-47a3-83e8-cf373b1de53a")
 	)
 	(fp_rect
-		(start -1.5 -0.5)
-		(end 1.5 1.5)
+		(start -2 -1.25)
+		(end 2 1.25)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
+		)
+		(fill no)
+		(layer "Margin")
+		(uuid "e99ce8c3-b22f-4597-b403-1b4cda1f9667")
+	)
+	(fp_rect
+		(start -1.5 -1.25)
+		(end 1.5 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.Fab")
@@ -89,31 +100,18 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -1.1 0)
-		(size 1 0.7)
+		(at -1.7 0)
+		(size 1 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "d3fab22a-15e9-4aa3-9eb7-71780e05d412")
 	)
-	(pad "2" smd rect
-		(at -1.1 1)
-		(size 1 0.7)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "ad643a93-4570-4f68-af18-f27180b1d646")
-	)
-	(pad "3" smd roundrect
-		(at 1.1 0)
-		(size 1 0.7)
+	(pad "2" smd roundrect
+		(at 1.7 0)
+		(size 1 1.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "b4c882be-5007-4424-824d-3e02d738f52b")
-	)
-	(pad "4" smd roundrect
-		(at 1.1 1)
-		(size 1 0.7)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.15)
-		(uuid "fb598a32-c99c-447d-a04c-e4915cd1f56c")
+		(uuid "5b036476-5406-43e2-bd82-81426a64e20f")
 	)
 	(embedded_fonts no)
 )

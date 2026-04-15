@@ -5,6 +5,113 @@
 	(uuid "9668bc71-8924-498e-982f-628f3083c8b8")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Wurth_WR-BTB:658561423020"
 			(pin_names
 				(hide yes)
@@ -1397,16 +1504,6 @@
 		)
 		(uuid "4405567d-5c09-4fff-a9a7-fc6d5a3f52a1")
 	)
-	(text "USB_C\n"
-		(exclude_from_sim no)
-		(at 88.138 156.464 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7ce11b1e-0a0f-4f06-b7f6-e66de0023920")
-	)
 	(text "Sensors\nConnector\n"
 		(exclude_from_sim no)
 		(at 53.34 112.776 0)
@@ -1444,11 +1541,25 @@
 		(color 0 0 0 0)
 		(uuid "b9ec9452-8f4f-4638-a4fe-85f5871d34ba")
 	)
-	(junction
-		(at 96.52 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0be55cd-9b00-4954-bf8b-0b6e71422104")
+	(polyline
+		(pts
+			(xy 59.69 195.58) (xy 59.69 152.4)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "023d4697-a06e-41c5-9f3b-3be7ee729032")
+	)
+	(wire
+		(pts
+			(xy 43.18 181.61) (xy 36.83 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066986c6-df61-4663-b2d7-9f3e13d700af")
 	)
 	(wire
 		(pts
@@ -1480,6 +1591,16 @@
 		)
 		(uuid "0a641d78-6b39-4296-8dd6-a03f83712d72")
 	)
+	(wire
+		(pts
+			(xy 204.47 99.06) (xy 208.28 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dd8e328-bf64-41ad-8a3f-735bf647421a")
+	)
 	(polyline
 		(pts
 			(xy 102.87 152.4) (xy 86.36 152.4)
@@ -1489,16 +1610,6 @@
 			(type solid)
 		)
 		(uuid "126e68b3-f361-411f-9af0-a1fada79f7d4")
-	)
-	(wire
-		(pts
-			(xy 96.52 181.61) (xy 105.41 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15a1bca7-e066-416d-a612-1ee83626528a")
 	)
 	(wire
 		(pts
@@ -1582,13 +1693,13 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 163.83) (xy 96.52 170.18)
+			(xy 204.47 101.6) (xy 208.28 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b6063c7-5df9-4954-8e70-a9e2409db9fe")
+		(uuid "39475821-af58-483e-b422-71e6ece237b0")
 	)
 	(wire
 		(pts
@@ -1599,6 +1710,16 @@
 			(type default)
 		)
 		(uuid "46ea0393-8de9-45b0-b677-cf9eb97bd4dc")
+	)
+	(wire
+		(pts
+			(xy 43.18 166.37) (xy 36.83 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47aa4b6d-6f0a-4a75-b232-132760c27681")
 	)
 	(wire
 		(pts
@@ -1669,16 +1790,6 @@
 			(type default)
 		)
 		(uuid "668654b2-5765-4331-b228-a67af58626d3")
-	)
-	(wire
-		(pts
-			(xy 96.52 177.8) (xy 96.52 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7065af2d-06ef-4501-b9ad-400424ca8cdb")
 	)
 	(wire
 		(pts
@@ -1789,6 +1900,16 @@
 			(type default)
 		)
 		(uuid "a108d21e-95cc-4ec4-b429-380abefedcb0")
+	)
+	(wire
+		(pts
+			(xy 43.18 179.07) (xy 36.83 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a57d2107-c0c6-4f3f-8ddd-5735eae9d91d")
 	)
 	(polyline
 		(pts
@@ -2010,15 +2131,15 @@
 		)
 		(uuid "036fdf5a-0042-4f05-9777-339abb6671df")
 	)
-	(label "RES_usb"
-		(at 96.52 163.83 0)
+	(label "GP2"
+		(at 116.84 124.46 270)
 		(effects
 			(font
-				(size 0.889 0.889)
+				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "0bdef2c6-9ae0-4488-ba71-3e606c665e45")
+		(uuid "05ac2024-a4da-45f5-b090-764d5411df04")
 	)
 	(label "SCL_0"
 		(at 46.99 55.88 180)
@@ -2099,6 +2220,16 @@
 			(justify left bottom)
 		)
 		(uuid "1c04a63a-e9c4-4a7e-a378-e9d33aca3eda")
+	)
+	(label "Can_H"
+		(at 43.18 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2706f516-4851-41e4-8422-a3637487b0b9")
 	)
 	(label "RES"
 		(at 204.47 92.71 0)
@@ -2189,6 +2320,16 @@
 			(justify left bottom)
 		)
 		(uuid "4346353a-651c-46f6-8396-41a10fe30153")
+	)
+	(label "GP3"
+		(at 204.47 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44b48d5a-fff8-494f-9953-32fa5fa46452")
 	)
 	(label "+5V"
 		(at 34.29 124.46 180)
@@ -2290,6 +2431,16 @@
 		)
 		(uuid "708c64c4-a161-41ee-84bf-d76363465259")
 	)
+	(label "Can_L"
+		(at 43.18 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7709cf57-b6fc-41b1-807d-613fdd465545")
+	)
 	(label "+3.3V"
 		(at 67.31 142.24 0)
 		(effects
@@ -2300,6 +2451,26 @@
 		)
 		(uuid "780e7fa9-7d7e-4290-bfd4-40de653a6331")
 	)
+	(label "USB_DP"
+		(at 36.83 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78f488c9-cbc9-48e9-8d75-ccaef13474eb")
+	)
+	(label "V_Bus"
+		(at 43.18 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "80287f48-c5f2-4ce4-8099-d2a90d2a0fbe")
+	)
 	(label "GP1"
 		(at 34.29 129.54 180)
 		(effects
@@ -2309,6 +2480,26 @@
 			(justify right bottom)
 		)
 		(uuid "8410df5b-7d7f-4e97-b8ee-fc3b9a0b62b4")
+	)
+	(label "USB_DM"
+		(at 36.83 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "852c4b6f-f647-42e0-8356-d3050537fb87")
+	)
+	(label "GP2"
+		(at 204.47 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b6d2c6a-cfaa-4bb2-9410-a611447a091f")
 	)
 	(label "INT2"
 		(at 203.2 41.91 0)
@@ -2369,16 +2560,6 @@
 			(justify left bottom)
 		)
 		(uuid "98648f7d-d398-4995-92bb-5152d4752707")
-	)
-	(label "RES"
-		(at 105.41 181.61 180)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right bottom)
-		)
-		(uuid "9c244116-3c8d-47e5-bc43-7eeb3100c4c5")
 	)
 	(label "MOSI"
 		(at 45.72 127 0)
@@ -2510,6 +2691,16 @@
 		)
 		(uuid "d5bb1a21-304c-490e-80eb-37f9a3bbaf8a")
 	)
+	(label "GP3"
+		(at 114.3 123.19 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "db71a099-5e80-409a-8fc8-790d228470a4")
+	)
 	(label "INT1"
 		(at 46.99 63.5 180)
 		(effects
@@ -2635,73 +2826,6 @@
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8"
 					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 96.52 173.99 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "10d3c8dd-58f4-41a6-a633-e4a7fcda952f")
-		(property "Reference" "R16"
-			(at 100.33 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1 K"
-			(at 98.806 173.736 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 98.298 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 96.52 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d74f381e-2471-48c0-86b8-5e7f516727fc")
-		)
-		(pin "2"
-			(uuid "736055f8-7b79-40cf-b527-92be05410d5c")
-		)
-		(instances
-			(project "SensorHub_2.0"
-				(path "/9668bc71-8924-498e-982f-628f3083c8b8"
-					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -2967,76 +3091,6 @@
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 96.52 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24e24aff-61b4-42ae-8196-11fd487b2769")
-		(property "Reference" "C17"
-			(at 100.33 184.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1 uF"
-			(at 100.33 186.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 97.4852 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 96.52 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1390c658-884f-414b-bc60-b7b9be856e1d")
-		)
-		(pin "2"
-			(uuid "6a4736c9-97a1-4bd0-9258-fbfc97d77350")
-		)
-		(instances
-			(project "SensorHub_2.0"
-				(path "/9668bc71-8924-498e-982f-628f3083c8b8"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -3378,72 +3432,6 @@
 	)
 	(symbol
 		(lib_id "SensorHub MicroMod Carrier v1.1.0b-eagle-import:microbuilder_GND")
-		(at 96.52 191.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "858ce1a9-1599-4f43-94c9-18c63b080b91")
-		(property "Reference" "#U$022"
-			(at 96.52 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 94.996 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb9bd760-9c29-40ee-97d8-8f1f8bf6bc84")
-		)
-		(instances
-			(project "SensorHub_2.0"
-				(path "/9668bc71-8924-498e-982f-628f3083c8b8"
-					(reference "#U$022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SensorHub MicroMod Carrier v1.1.0b-eagle-import:microbuilder_GND")
 		(at 90.17 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3503,6 +3491,140 @@
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8"
 					(reference "#U$016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 116.84 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4da8f61-4b6f-4468-a3fa-cbe6c5c9f777")
+		(property "Reference" "TP7"
+			(at 112.268 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 112.268 117.6019 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 121.92 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 116.84 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1bde652-0d23-4381-861b-3e195070176a")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 114.3 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad35275b-f3d9-4e21-90b2-88994616fe2a")
+		(property "Reference" "TP2"
+			(at 109.728 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 109.728 116.3319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 119.38 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 114.3 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a1845df-2d76-422d-95b2-8c4ebecc45f0")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -3829,6 +3951,26 @@
 				(justify left)
 			)
 		)
+		(pin "GP2" bidirectional
+			(at 208.28 99.06 180)
+			(uuid "fdf4fc5c-8921-41cb-8f06-06cdce41f8d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GP3" bidirectional
+			(at 208.28 101.6 180)
+			(uuid "d68502cc-e71c-4865-8794-fcda1f85506b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8"
@@ -3900,13 +4042,12 @@
 		)
 	)
 	(sheet
-		(at 20.32 166.37)
-		(size 67.31 16.51)
+		(at 21.59 163.83)
+		(size 15.24 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -3915,8 +4056,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "a9b715b2-3c86-4c28-812a-8a4f3eb6a194")
-		(property "Sheetname" "USB_C"
-			(at 20.32 165.6584 0)
+		(property "Sheetname" "USB_C_2.0+SBUS"
+			(at 21.336 163.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3924,13 +4065,63 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "USB_C.kicad_sch"
-			(at 20.32 183.4646 0)
+		(property "Sheetfile" "USB_C_2.0+SBUS.kicad_sch"
+			(at 20.828 185.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "V_Bus" input
+			(at 36.83 166.37 0)
+			(uuid "56746567-f21c-426a-aed3-4355075f273c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Out_1" input
+			(at 36.83 179.07 0)
+			(uuid "de11c56c-5c9e-4d39-a217-12be02ad8d5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Out_2" input
+			(at 36.83 181.61 0)
+			(uuid "f955905a-99aa-4830-a3c4-338da2b50d8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" input
+			(at 36.83 171.45 0)
+			(uuid "983c13da-86b8-4ec9-917b-a9db13354c05")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DM" input
+			(at 36.83 173.99 0)
+			(uuid "7b270852-5030-4b19-9003-306c6213cebb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
