@@ -1439,98 +1439,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SensorHub MicroMod Carrier v1.1.0b-eagle-import:microbuilder_GND"
-			(power)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at -1.524 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "GND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "microbuilder_GND_1_0"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "eec:R7FA4E2B93CFM#AA0"
 			(pin_names
 				(offset 1.016)
@@ -3409,7 +3317,7 @@
 	)
 	(rectangle
 		(start 114.3 30.48)
-		(end 168.91 81.28)
+		(end 172.72 81.28)
 		(stroke
 			(width 0)
 			(type default)
@@ -3421,7 +3329,7 @@
 	)
 	(rectangle
 		(start 114.3 88.9)
-		(end 168.91 139.7)
+		(end 172.72 139.7)
 		(stroke
 			(width 0)
 			(type default)
@@ -3492,12 +3400,6 @@
 		(uuid "af22b9dd-9f45-4b2b-893b-fbcab9cfa9c8")
 	)
 	(junction
-		(at 153.67 123.1857)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb139ec5-de91-40d6-b82a-543f9414391a")
-	)
-	(junction
 		(at 205.74 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3516,20 +3418,152 @@
 		(uuid "ef762f33-5ef8-45a0-b0f0-c7c20097ee27")
 	)
 	(no_connect
+		(at 246.38 52.07)
+		(uuid "0345086a-e9a3-4842-a381-2fd9dd3716ba")
+	)
+	(no_connect
+		(at 246.38 110.49)
+		(uuid "076c0a05-9daa-4756-b3ae-01b8effbf25b")
+	)
+	(no_connect
+		(at 246.38 59.69)
+		(uuid "1381b3e3-9f13-4c1e-aaf8-35acdae43798")
+	)
+	(no_connect
+		(at 205.74 120.65)
+		(uuid "140e6a06-6a18-4fb2-a2f9-3a0beb9ec4fd")
+	)
+	(no_connect
+		(at 246.38 57.15)
+		(uuid "249267fa-e7af-4b16-b202-449169dfcb41")
+	)
+	(no_connect
+		(at 246.38 49.53)
+		(uuid "2b08935b-2ad1-4c8c-a164-132503525450")
+	)
+	(no_connect
 		(at 39.37 157.48)
 		(uuid "3d53f6e5-6926-496b-8866-2d8da74d6e2e")
+	)
+	(no_connect
+		(at 205.74 105.41)
+		(uuid "415528e7-48a5-4597-92fc-12907cf6cf74")
+	)
+	(no_connect
+		(at 205.74 102.87)
+		(uuid "456ae2db-75b7-4e67-81bf-b6ab0392bdd8")
+	)
+	(no_connect
+		(at 205.74 72.39)
+		(uuid "5cef3979-5a5a-4b23-8b6e-6f2702dd16ff")
+	)
+	(no_connect
+		(at 246.38 90.17)
+		(uuid "5fefea8a-3fca-4234-90c2-9723cada1998")
+	)
+	(no_connect
+		(at 205.74 128.27)
+		(uuid "61256fab-fd11-45f6-89a9-0caf18d96cfd")
+	)
+	(no_connect
+		(at 205.74 133.35)
+		(uuid "65c6aa15-c378-43af-85df-8f11e78ea050")
+	)
+	(no_connect
+		(at 205.74 130.81)
+		(uuid "7bfe07c2-c701-464e-8a76-66931f519973")
+	)
+	(no_connect
+		(at 205.74 115.57)
+		(uuid "839f6d48-8eb7-412b-a329-fc55ebd55d99")
+	)
+	(no_connect
+		(at 246.38 80.01)
+		(uuid "8a45451f-0312-441e-832d-97df6654b851")
+	)
+	(no_connect
+		(at 246.38 36.83)
+		(uuid "8f0d346e-943b-4431-a771-52560d521484")
+	)
+	(no_connect
+		(at 246.38 125.73)
+		(uuid "91ecb54c-1452-4fbf-b57c-1045ac86a55f")
+	)
+	(no_connect
+		(at 205.74 64.77)
+		(uuid "97bac34d-835e-4575-8cf4-83acf0fe9c83")
 	)
 	(no_connect
 		(at 87.63 53.34)
 		(uuid "97f127c3-e3da-4931-85f5-38f2edd8b27c")
 	)
 	(no_connect
+		(at 205.74 125.73)
+		(uuid "a453e430-8238-4cc5-9689-a67786ecbae7")
+	)
+	(no_connect
+		(at 246.38 95.25)
+		(uuid "a71a97bb-6a99-43d5-bc0b-bc358ea7aa5c")
+	)
+	(no_connect
+		(at 246.38 62.23)
+		(uuid "aeff3b62-18a3-467b-a002-974c12d2801a")
+	)
+	(no_connect
 		(at 87.63 55.88)
 		(uuid "afaef419-972d-491b-bc54-0b1dbc9b32a3")
 	)
 	(no_connect
+		(at 246.38 82.55)
+		(uuid "b713fee0-442f-409c-a627-40bf1800c279")
+	)
+	(no_connect
+		(at 246.38 72.39)
+		(uuid "ce6762e2-6512-4921-aeec-b66bdf8febce")
+	)
+	(no_connect
+		(at 246.38 92.71)
+		(uuid "e03e784a-3452-49bd-b128-c948e5f6244a")
+	)
+	(no_connect
+		(at 205.74 67.31)
+		(uuid "e62cc91c-1b51-4b9b-99f5-ff1cd44f2520")
+	)
+	(no_connect
+		(at 205.74 123.19)
+		(uuid "ea97d959-ed58-4e33-aa20-29e02b7d8b2e")
+	)
+	(no_connect
+		(at 246.38 128.27)
+		(uuid "edb0f5af-a3aa-446e-b841-e93b7307ed42")
+	)
+	(no_connect
 		(at 62.23 55.88)
 		(uuid "f0cff064-1258-44b2-89f2-fa47043dd3ca")
+	)
+	(no_connect
+		(at 205.74 100.33)
+		(uuid "f60ab117-058b-4956-ab53-bfd9506749fd")
+	)
+	(no_connect
+		(at 205.74 140.97)
+		(uuid "f98f3aa4-85aa-4e1e-af26-885b98cdd140")
+	)
+	(no_connect
+		(at 205.74 118.11)
+		(uuid "fc584b7e-b0b1-463d-a06d-c139c110f511")
+	)
+	(no_connect
+		(at 246.38 107.95)
+		(uuid "fc633edf-3042-44e4-8d15-e15e31994247")
+	)
+	(no_connect
+		(at 246.38 87.63)
+		(uuid "fca23e11-2401-448c-95d1-e1be773b7aa5")
+	)
+	(no_connect
+		(at 205.74 135.89)
+		(uuid "fcaff841-00da-4856-9c76-e08ac34e54e3")
 	)
 	(wire
 		(pts
@@ -3543,6 +3577,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 115.57) (xy 153.67 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24829ce6-54e7-44dd-9ecc-9888d3a6c1a4")
+	)
+	(wire
+		(pts
 			(xy 30.48 130.81) (xy 39.37 130.81)
 		)
 		(stroke
@@ -3550,16 +3594,6 @@
 			(type default)
 		)
 		(uuid "28dfb6b6-a1aa-40fb-bc94-ce9bcd7b3d29")
-	)
-	(wire
-		(pts
-			(xy 78.74 139.7) (xy 78.74 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2968167d-ff99-4962-9b70-80fa21dfae08")
 	)
 	(wire
 		(pts
@@ -3593,6 +3627,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 135.89) (xy 78.74 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aad22de-4b8e-48aa-a1ba-36f7380479f2")
+	)
+	(wire
+		(pts
 			(xy 246.38 133.35) (xy 246.38 138.43)
 		)
 		(stroke
@@ -3600,6 +3644,16 @@
 			(type default)
 		)
 		(uuid "52ab8ef5-1762-4234-99db-9b5448ac3499")
+	)
+	(wire
+		(pts
+			(xy 168.91 99.06) (xy 168.91 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52e3ff28-dec9-4691-9959-4ed63cf61549")
 	)
 	(wire
 		(pts
@@ -3753,13 +3807,13 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 123.1857) (xy 153.67 115.57)
+			(xy 161.29 123.19) (xy 161.29 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "98fa6467-17e5-4104-b9e7-04c1861059a7")
+		(uuid "9ef692db-2118-41a6-93dc-a0fb1fe83714")
 	)
 	(wire
 		(pts
@@ -3903,16 +3957,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 123.19) (xy 153.67 123.1857)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb92468c-3204-4111-8319-14fb8cfb8195")
-	)
-	(wire
-		(pts
 			(xy 146.05 39.37) (xy 146.05 40.64)
 		)
 		(stroke
@@ -3920,6 +3964,16 @@
 			(type default)
 		)
 		(uuid "ec5ce68e-5552-4aeb-972f-9cc809798a43")
+	)
+	(wire
+		(pts
+			(xy 168.91 115.57) (xy 168.91 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef5c02be-9027-4824-8078-d42af8ab150e")
 	)
 	(wire
 		(pts
@@ -3961,6 +4015,26 @@
 		)
 		(uuid "fe7aec2d-9f25-4fcb-8e5a-b27072de3289")
 	)
+	(wire
+		(pts
+			(xy 161.29 99.06) (xy 161.29 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff2dcc46-ae70-4783-a062-5346a83ab13d")
+	)
+	(label "SWDIO"
+		(at 87.63 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0edba58a-4d2b-40d8-9442-50a63fe8d3b6")
+	)
 	(label "GND"
 		(at 62.23 50.8 180)
 		(effects
@@ -3970,16 +4044,6 @@
 			(justify right bottom)
 		)
 		(uuid "12f4c96f-3191-4b97-b698-fe85ceccf717")
-	)
-	(label "SWDIO"
-		(at 87.63 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "15c32a25-b5f0-4605-b615-d5e9a95f3621")
 	)
 	(label "GND"
 		(at 74.93 99.06 0)
@@ -4100,6 +4164,16 @@
 			(justify left bottom)
 		)
 		(uuid "56301bcc-e99a-4153-82f5-0a6a15585a36")
+	)
+	(label "+3.3V"
+		(at 161.29 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "67b9cb66-5e5b-425c-ae9f-4edeb39e0ff0")
 	)
 	(label "RES"
 		(at 124.46 49.53 0)
@@ -4271,15 +4345,25 @@
 		)
 		(uuid "b532d642-b72e-43cd-9050-df1341ed5280")
 	)
+	(label "+3.3V"
+		(at 168.91 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cdb3d745-62e6-4ba3-b23c-74e8e89ed8db")
+	)
 	(label "SWCLK"
-		(at 87.63 50.8 0)
+		(at 87.63 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ba61e776-e097-414b-b673-d9873fa3607e")
+		(uuid "ddba9fe3-d2cc-4953-8e91-372dc75f1a76")
 	)
 	(label "+3.3V"
 		(at 153.67 99.06 180)
@@ -4882,6 +4966,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 78.74 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "099921f3-2f8c-493c-a686-69aad500fcac")
+		(property "Reference" "#PWR02"
+			(at 78.74 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 78.74 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 78.74 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f910db43-d574-4d85-96f9-f44a69b388cd")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FTSH-105-01-L-DV-K-A:FTSH-105-01-L-DV-K-A")
 		(at 74.93 53.34 0)
 		(unit 1)
@@ -5163,6 +5313,75 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 78.74 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0db4b189-a948-46d0-9118-c73bd4f120e8")
+		(property "Reference" "R7"
+			(at 78.74 136.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7 K"
+			(at 78.74 139.446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 76.962 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 78.74 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41132c7e-333a-43d3-88f1-73ec91d9e23e")
+		)
+		(pin "2"
+			(uuid "3f2d7719-eb1e-4cde-a028-2c642f6603ef")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 135.89 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5226,6 +5445,72 @@
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b18116b-68ae-4840-bd05-b0856150aa81")
+		(property "Reference" "#PWR037"
+			(at 135.89 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04283117-d226-4f8e-aae8-44d8e98184ee")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -5299,7 +5584,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 123.1857 0)
+		(at 153.67 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5308,7 +5593,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f6ff490-67b1-40f8-ad41-469a22781cc7")
 		(property "Reference" "#PWR029"
-			(at 153.67 129.5357 0)
+			(at 153.67 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5317,7 +5602,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 128.2657 0)
+			(at 153.67 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5325,7 +5610,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 123.1857 0)
+			(at 153.67 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5334,7 +5619,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 123.1857 0)
+			(at 153.67 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5343,7 +5628,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 123.1857 0)
+			(at 153.67 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5562,6 +5847,72 @@
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48816d39-426d-4c8f-b3fb-ac56e25206e7")
+		(property "Reference" "#PWR043"
+			(at 168.91 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7f2de50-5dba-465e-bfee-6cfc2af9b01c")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -6789,6 +7140,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 161.29 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "922b85ec-0761-4e50-a186-8adb945ab3a9")
+		(property "Reference" "#PWR042"
+			(at 161.29 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee44a3b6-a397-48db-93a1-df0906f1918d")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "1312020030000:1312020030000")
 		(at 46.99 133.35 0)
 		(unit 1)
@@ -7023,72 +7440,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SensorHub MicroMod Carrier v1.1.0b-eagle-import:microbuilder_GND")
-		(at 146.05 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "972b11cb-4b18-40c1-8683-7d98af6aa152")
-		(property "Reference" "#U$04"
-			(at 146.05 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 144.526 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58a6daa1-730e-4fed-844d-d58ccbb02862")
-		)
-		(instances
-			(project "SensorHub_2.0"
-				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
-					(reference "#U$04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 128.27 55.88 0)
 		(unit 1)
@@ -7222,72 +7573,6 @@
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 78.74 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b301e8b3-d841-43f8-88c7-9cf02e0ccd51")
-		(property "Reference" "#PWR02"
-			(at 78.74 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 78.74 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 78.74 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4e9e090-0083-411c-be53-e25a8bde4b48")
-		)
-		(instances
-			(project "SensorHub_2.0"
-				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -7527,6 +7812,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 161.29 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bac1eb29-9e9a-49c2-a9d1-19c55d9fbca8")
+		(property "Reference" "C17"
+			(at 160.782 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1 uF"
+			(at 160.782 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 162.2552 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 161.29 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b12f70de-0f33-44a9-a1a0-ecd0ebe3bdc7")
+		)
+		(pin "2"
+			(uuid "1443f411-5f5f-4159-a9ba-3c1eb7bba997")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 130.81 123.19 0)
 		(unit 1)
@@ -7726,6 +8080,141 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 168.91 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d90d549e-fd4b-4951-ad49-4a10f3253c72")
+		(property "Reference" "C18"
+			(at 168.402 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1 uF"
+			(at 168.402 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 169.8752 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 168.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9beb2411-a574-4646-88eb-a63d15d3da87")
+		)
+		(pin "2"
+			(uuid "bfa10852-319f-4b71-a2ac-f93b8dbae8bf")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db8dbddf-7863-4aba-b86a-2f24329e501f")
+		(property "Reference" "#PWR039"
+			(at 146.05 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a2cbd90-0367-45da-ae6d-150479504bfa")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 86.36 99.06 0)
 		(unit 1)
@@ -7786,72 +8275,6 @@
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SensorHub MicroMod Carrier v1.1.0b-eagle-import:microbuilder_GND")
-		(at 135.89 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e7e17afa-721d-470c-b2e4-ad529b71f204")
-		(property "Reference" "#U$05"
-			(at 135.89 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.366 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7cdf3b19-792a-4d32-b85e-80ddbd246069")
-		)
-		(instances
-			(project "SensorHub_2.0"
-				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
-					(reference "#U$05")
 					(unit 1)
 				)
 			)
@@ -8261,75 +8684,6 @@
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 78.74 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fde2e20e-e3fb-4144-820a-1e823c6ac506")
-		(property "Reference" "R7"
-			(at 78.74 136.906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7 K"
-			(at 78.74 139.446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 76.962 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 78.74 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8bab79e9-24d1-4d77-8ccb-500ec31795b8")
-		)
-		(pin "2"
-			(uuid "343bdf76-6e23-454f-a34e-453c475931f4")
-		)
-		(instances
-			(project "SensorHub_2.0"
-				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
-					(reference "R7")
 					(unit 1)
 				)
 			)

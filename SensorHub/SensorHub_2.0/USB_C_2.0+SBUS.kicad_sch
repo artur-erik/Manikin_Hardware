@@ -2058,6 +2058,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -3066,6 +3205,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 158.75) (xy 59.69 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19bc85f4-9bee-4df8-a21f-9989d5b95182")
+	)
+	(wire
+		(pts
 			(xy 78.74 62.23) (xy 62.23 62.23)
 		)
 		(stroke
@@ -3276,6 +3425,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 151.13) (xy 67.31 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b062f641-bec2-44a1-b96b-dd6d0fac493a")
+	)
+	(wire
+		(pts
 			(xy 201.93 92.71) (xy 201.93 90.17)
 		)
 		(stroke
@@ -3283,6 +3442,16 @@
 			(type default)
 		)
 		(uuid "bc80e8e1-d6a5-4dd1-993d-16abf2ec9828")
+	)
+	(wire
+		(pts
+			(xy 59.69 134.62) (xy 59.69 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6c5b156-93b9-48b8-a7de-a52d67e14a5f")
 	)
 	(wire
 		(pts
@@ -3354,6 +3523,16 @@
 		)
 		(uuid "f8b818b6-776d-48ab-831e-7410ab02ab00")
 	)
+	(wire
+		(pts
+			(xy 67.31 134.62) (xy 67.31 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa360300-a1e8-4748-a6ca-548760e34734")
+	)
 	(label "SBU1"
 		(at 139.7 69.85 180)
 		(effects
@@ -3404,16 +3583,6 @@
 		)
 		(uuid "31b9ffb0-4ea2-4ae7-9e64-79a53d344153")
 	)
-	(label "V_Bus"
-		(at 147.32 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3965d408-8ef9-4b40-8736-2e1bb3ad4652")
-	)
 	(label "SBU1"
 		(at 140.97 113.03 180)
 		(effects
@@ -3423,16 +3592,6 @@
 			(justify right bottom)
 		)
 		(uuid "46dc162a-16fb-481c-8091-c9143e175914")
-	)
-	(label "V_Bus"
-		(at 147.32 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "51a40cf7-2fab-4c4a-93f9-b958f5b7df73")
 	)
 	(label "SBU2"
 		(at 62.23 72.39 0)
@@ -3644,6 +3803,17 @@
 		)
 		(uuid "fae9dab6-6857-4c14-badf-9211fca5fbd8")
 	)
+	(hierarchical_label "V_Bus"
+		(shape input)
+		(at 147.32 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17955d72-3b3c-4a43-9b53-a7a5578ccc96")
+	)
 	(hierarchical_label "USB_DM"
 		(shape input)
 		(at 62.23 60.96 0)
@@ -3666,6 +3836,17 @@
 		)
 		(uuid "363e6e34-e272-4d04-92dd-3e5c51ce1772")
 	)
+	(hierarchical_label "V_Bus"
+		(shape input)
+		(at 67.31 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c522f6a-cc24-4483-9b49-55b5d2f45989")
+	)
 	(hierarchical_label "USB_DP"
 		(shape input)
 		(at 62.23 55.88 0)
@@ -3676,6 +3857,28 @@
 			(justify left)
 		)
 		(uuid "60216633-dfde-48e4-a6b4-f93e31d670d8")
+	)
+	(hierarchical_label "V_Bus"
+		(shape input)
+		(at 59.69 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7057738d-5819-4a7c-996b-678196d93250")
+	)
+	(hierarchical_label "V_Bus"
+		(shape input)
+		(at 147.32 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c9806450-fef3-4d82-9a56-be078571f201")
 	)
 	(hierarchical_label "V_Bus"
 		(shape input)
@@ -3698,6 +3901,72 @@
 			(justify left)
 		)
 		(uuid "eaa10118-1dbc-4397-9bfb-740e46b5b979")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 67.31 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02afdfc6-6b13-4e84-9a6a-4b48ca86415f")
+		(property "Reference" "#PWR045"
+			(at 67.31 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87a9694d-dcc8-4134-b05e-5455f564b622")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/a9b715b2-3c86-4c28-812a-8a4f3eb6a194"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Comparator:LMV339")
@@ -4326,6 +4595,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 59.69 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39e75ddd-6883-499e-971b-8215dc35e670")
+		(property "Reference" "#PWR044"
+			(at 59.69 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f36641e1-f0cb-4c62-96aa-075a29707042")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/a9b715b2-3c86-4c28-812a-8a4f3eb6a194"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Comparator:LMV339")
 		(at 243.84 123.19 0)
 		(unit 4)
@@ -4651,6 +4986,144 @@
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8/a9b715b2-3c86-4c28-812a-8a4f3eb6a194"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 67.31 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8039b55c-f9b5-4e2d-99bc-3a2bb7bf662d")
+		(property "Reference" "C21"
+			(at 66.802 145.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1 uF"
+			(at 66.802 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 68.2752 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 67.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6206ebd4-ab3e-4cce-b278-dd21e3fb1624")
+		)
+		(pin "2"
+			(uuid "a3f06949-1c0b-4019-abc6-d6336bb1e8b9")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/a9b715b2-3c86-4c28-812a-8a4f3eb6a194"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 59.69 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86871459-3eeb-431e-8622-c4fe7246f27a")
+		(property "Reference" "C20"
+			(at 59.182 145.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1 uF"
+			(at 59.182 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 60.6552 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 59.69 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c7d2e1f-d60e-4c75-8a5d-fb36098d301d")
+		)
+		(pin "2"
+			(uuid "6a7dcaae-3719-4c5b-8540-1fd0ee760831")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/a9b715b2-3c86-4c28-812a-8a4f3eb6a194"
+					(reference "C20")
 					(unit 1)
 				)
 			)
