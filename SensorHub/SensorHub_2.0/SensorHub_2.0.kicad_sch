@@ -1368,13 +1368,20 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SensorHub MicroMod Carrier v1.1.0b-eagle-import:microbuilder_GND"
+		(symbol "power:+5V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1382,13 +1389,12 @@
 					(hide yes)
 				)
 			)
-			(property "Value" ""
-				(at -1.524 -2.54 0)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
 				(effects
 					(font
-						(size 1.27 1.0795)
+						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
 			(property "Footprint" ""
@@ -1409,7 +1415,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "GND"
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1418,41 +1424,169 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(symbol "microbuilder_GND_1_0"
+			(symbol "+5V_0_1"
 				(polyline
 					(pts
-						(xy -1.27 0) (xy 1.27 0)
+						(xy -0.762 1.27) (xy 0 2.54)
 					)
 					(stroke
-						(width 0.254)
-						(type solid)
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
 				(pin power_in line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "GND"
+					(at 0 0 90)
+					(length 0)
+					(name "~"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2201,16 +2335,6 @@
 		)
 		(uuid "132a3560-a953-4a6b-b6c5-3355d400cace")
 	)
-	(label "+5V"
-		(at 67.31 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "13e8f9a5-6fe6-4d0a-9e66-67fce47aac86")
-	)
 	(label "SDA_0"
 		(at 46.99 59.69 180)
 		(effects
@@ -2340,16 +2464,6 @@
 			(justify left bottom)
 		)
 		(uuid "44b48d5a-fff8-494f-9953-32fa5fa46452")
-	)
-	(label "+5V"
-		(at 34.29 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4cbd525c-4892-47d7-9199-2f7cfe50411a")
 	)
 	(label "GND"
 		(at 45.72 144.78 0)
@@ -2826,6 +2940,73 @@
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 67.31 124.46 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17966f5f-b5d4-4483-bf34-86ef0a92ca94")
+		(property "Reference" "#PWR047"
+			(at 63.5 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 71.12 124.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 67.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d93752a9-6d09-4791-8a59-e67d12dc0330")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3359,6 +3540,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 90.17 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31cde0d5-5659-42f4-b477-a1bd33afd533")
+		(property "Reference" "#PWR048"
+			(at 90.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6ab2261-478d-498e-b245-17ea05eb20e4")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 90.17 134.62 0)
 		(unit 1)
@@ -3429,16 +3676,17 @@
 		)
 	)
 	(symbol
-		(lib_id "SensorHub MicroMod Carrier v1.1.0b-eagle-import:microbuilder_GND")
-		(at 90.17 148.59 0)
+		(lib_id "power:+5V")
+		(at 34.29 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8d2e239a-2431-47d7-9d81-1a5c9d4e287e")
-		(property "Reference" "#U$016"
-			(at 90.17 148.59 0)
+		(fields_autoplaced yes)
+		(uuid "5bb33e08-7a83-4db1-8e5d-02af6b0ee724")
+		(property "Reference" "#PWR046"
+			(at 38.1 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3446,17 +3694,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 88.646 151.13 0)
+		(property "Value" "+5V"
+			(at 30.48 124.4599 90)
 			(effects
 				(font
-					(size 1.27 1.0795)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 148.59 0)
+			(at 34.29 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3465,7 +3713,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 148.59 0)
+			(at 34.29 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3473,8 +3721,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 90.17 148.59 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 34.29 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3483,12 +3731,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "372969d8-815a-4a3c-95c2-068e7422bdb2")
+			(uuid "a09529a8-fe4c-40d1-a71e-51c4a8e175ef")
 		)
 		(instances
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8"
-					(reference "#U$016")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -3962,6 +4210,16 @@
 		(pin "GP3" bidirectional
 			(at 208.28 101.6 180)
 			(uuid "d68502cc-e71c-4865-8794-fcda1f85506b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sleep" input
+			(at 208.28 104.14 180)
+			(uuid "97b05f3a-3e59-43c5-b082-b2e219272406")
 			(effects
 				(font
 					(size 1.27 1.27)
