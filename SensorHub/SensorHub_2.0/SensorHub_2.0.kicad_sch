@@ -2111,6 +2111,16 @@
 		)
 		(uuid "fef71c4f-9a92-445e-b4b1-f4e72949998c")
 	)
+	(label "SCL_0"
+		(at 46.99 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "001edb76-2f11-4c16-ad9a-b714b9906cb2")
+	)
 	(label "ADC{slash}DA"
 		(at 200.66 46.99 0)
 		(effects
@@ -2140,16 +2150,6 @@
 			(justify right bottom)
 		)
 		(uuid "05ac2024-a4da-45f5-b090-764d5411df04")
-	)
-	(label "SCL_0"
-		(at 46.99 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0cc21c55-a8e4-4793-9e3f-d3b18e43f81a")
 	)
 	(label "GND"
 		(at 45.72 139.7 0)
@@ -2210,6 +2210,16 @@
 			(justify left bottom)
 		)
 		(uuid "13e8f9a5-6fe6-4d0a-9e66-67fce47aac86")
+	)
+	(label "SDA_0"
+		(at 46.99 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "19eeb016-8cb2-488e-94a3-e47f31e33a61")
 	)
 	(label "CS"
 		(at 45.72 132.08 0)
@@ -2710,16 +2720,6 @@
 			(justify right bottom)
 		)
 		(uuid "e4160fe1-2003-4d2d-b996-dca059f1d801")
-	)
-	(label "SDL_0"
-		(at 46.99 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e69f7450-0ff2-4432-a1f4-12d48e071c67")
 	)
 	(label "USB_DM"
 		(at 200.66 87.63 0)

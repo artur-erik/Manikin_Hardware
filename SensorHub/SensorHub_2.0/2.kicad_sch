@@ -1729,7 +1729,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4c40a7b6-0beb-44f4-9647-bd2aff2e4648")
+		(uuid "3a1c4877-4ac3-4fd8-b230-b200a087c2db")
 	)
 	(wire
 		(pts
@@ -2507,7 +2507,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 30.48 35.56 0)
+		(at 30.48 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2516,7 +2516,7 @@
 		(fields_autoplaced yes)
 		(uuid "2bbec81b-7a05-427f-bc1f-f8844ed9192a")
 		(property "Reference" "F1"
-			(at 33.02 34.2899 0)
+			(at 33.02 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2525,7 +2525,7 @@
 			)
 		)
 		(property "Value" "6V 0.5A"
-			(at 33.02 36.8299 0)
+			(at 33.02 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,7 +2534,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 28.702 35.56 90)
+			(at 28.702 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2543,7 +2543,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 35.56 0)
+			(at 30.48 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2552,7 +2552,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 30.48 35.56 0)
+			(at 30.48 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2779,7 +2779,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148WT")
-		(at 30.48 48.26 270)
+		(at 30.48 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2788,7 +2788,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a79f3f0-282a-4a95-ad37-b72c86616d8f")
 		(property "Reference" "D3"
-			(at 33.02 46.9899 90)
+			(at 33.02 34.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2797,7 +2797,7 @@
 			)
 		)
 		(property "Value" "1N4148WT"
-			(at 33.02 49.5299 90)
+			(at 33.02 36.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2806,7 +2806,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 26.035 48.26 0)
+			(at 26.035 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2815,7 +2815,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 30.48 48.26 0)
+			(at 30.48 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2824,7 +2824,7 @@
 			)
 		)
 		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 30.48 48.26 0)
+			(at 30.48 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2833,7 +2833,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 30.48 48.26 0)
+			(at 30.48 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2842,7 +2842,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 30.48 48.26 0)
+			(at 30.48 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -4436,17 +4436,6 @@
 		)
 		(uuid "31213673-4dfc-4415-b1e4-59c57ea8ed44")
 	)
-	(hierarchical_label "INT1"
-		(shape input)
-		(at 246.38 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "31a70cc0-0692-43a3-9004-4731eea8128b")
-	)
 	(hierarchical_label "MOSI"
 		(shape input)
 		(at 246.38 64.77 0)
@@ -4469,7 +4458,7 @@
 		)
 		(uuid "33ee43e3-f8eb-4828-a24b-3d3dbdb326ba")
 	)
-	(hierarchical_label "INT2"
+	(hierarchical_label "INT1"
 		(shape input)
 		(at 246.38 100.33 0)
 		(effects
@@ -4478,7 +4467,7 @@
 			)
 			(justify left)
 		)
-		(uuid "702efed5-fb5d-49a9-879d-de9dbef5291f")
+		(uuid "34fd6500-32f1-4e81-8de9-8289caf45a1f")
 	)
 	(hierarchical_label "SCK"
 		(shape input)
@@ -4578,6 +4567,17 @@
 			(justify right)
 		)
 		(uuid "e0c3a050-1f68-48e2-8eed-5bfd59968e19")
+	)
+	(hierarchical_label "INT2"
+		(shape input)
+		(at 246.38 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e989b2a1-69bb-4026-944c-1588d526cc30")
 	)
 	(hierarchical_label "TXD"
 		(shape input)
