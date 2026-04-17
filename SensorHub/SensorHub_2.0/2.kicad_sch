@@ -2858,7 +2858,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "MYRGM080200C41RA"
