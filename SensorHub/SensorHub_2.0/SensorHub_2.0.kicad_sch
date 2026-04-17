@@ -1675,6 +1675,10 @@
 		(color 0 0 0 0)
 		(uuid "b9ec9452-8f4f-4638-a4fe-85f5871d34ba")
 	)
+	(no_connect
+		(at 208.28 104.14)
+		(uuid "1bd80809-4fc9-4b69-a897-690ec6929efc")
+	)
 	(polyline
 		(pts
 			(xy 59.69 195.58) (xy 59.69 152.4)
