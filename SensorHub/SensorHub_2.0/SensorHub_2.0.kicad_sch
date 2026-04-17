@@ -2067,16 +2067,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 35.56) (xy 41.91 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaeed5d8-9505-453a-98fd-d9e32b0f6949")
-	)
-	(wire
-		(pts
 			(xy 57.15 137.16) (xy 44.45 137.16)
 		)
 		(stroke
@@ -2374,16 +2364,6 @@
 			(justify left bottom)
 		)
 		(uuid "27d4c08f-9961-4618-ac9a-e1124daad66b")
-	)
-	(label "Sleep"
-		(at 41.91 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2a20503d-c505-4e29-b2c5-c9fcea2c4f8c")
 	)
 	(label "MOSI"
 		(at 201.93 59.69 0)
@@ -4267,16 +4247,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "Sleep" bidirectional
-			(at 35.56 35.56 0)
-			(uuid "833caec1-c4cb-41b7-8670-25641fab8ce1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "V_Bus" bidirectional
