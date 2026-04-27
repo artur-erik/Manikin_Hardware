@@ -1679,25 +1679,23 @@
 		(at 208.28 104.14)
 		(uuid "1bd80809-4fc9-4b69-a897-690ec6929efc")
 	)
-	(polyline
-		(pts
-			(xy 59.69 195.58) (xy 59.69 152.4)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "023d4697-a06e-41c5-9f3b-3be7ee729032")
+	(no_connect
+		(at 31.75 179.07)
+		(uuid "23d984cb-cbe7-4a99-9298-6173ad73da1f")
+	)
+	(no_connect
+		(at 31.75 176.53)
+		(uuid "382e36f3-5bd4-4dda-a174-9e8566ca399f")
 	)
 	(wire
 		(pts
-			(xy 43.18 181.61) (xy 36.83 181.61)
+			(xy 40.64 173.99) (xy 31.75 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "066986c6-df61-4663-b2d7-9f3e13d700af")
+		(uuid "06bf7778-c1a5-4283-b07b-de813c45daf0")
 	)
 	(wire
 		(pts
@@ -1738,6 +1736,16 @@
 			(type default)
 		)
 		(uuid "0dd8e328-bf64-41ad-8a3f-735bf647421a")
+	)
+	(wire
+		(pts
+			(xy 40.64 171.45) (xy 31.75 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ddc7d75-a328-4116-9c0a-64e91551f5dc")
 	)
 	(polyline
 		(pts
@@ -1848,16 +1856,6 @@
 			(type default)
 		)
 		(uuid "46ea0393-8de9-45b0-b677-cf9eb97bd4dc")
-	)
-	(wire
-		(pts
-			(xy 43.18 166.37) (xy 36.83 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47aa4b6d-6f0a-4a75-b232-132760c27681")
 	)
 	(wire
 		(pts
@@ -2041,13 +2039,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 179.07) (xy 36.83 179.07)
+			(xy 40.64 182.88) (xy 31.75 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a57d2107-c0c6-4f3f-8ddd-5735eae9d91d")
+		(uuid "a1e505d1-6833-48a5-a5a0-ad66f2d7bf50")
 	)
 	(polyline
 		(pts
@@ -2211,6 +2209,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 167.64) (xy 31.75 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4a35605-9c14-4e8f-a729-7b9b13139ce2")
+	)
+	(wire
+		(pts
 			(xy 90.17 129.54) (xy 90.17 130.81)
 		)
 		(stroke
@@ -2238,6 +2246,16 @@
 			(type default)
 		)
 		(uuid "fef71c4f-9a92-445e-b4b1-f4e72949998c")
+	)
+	(wire
+		(pts
+			(xy 40.64 165.1) (xy 31.75 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff989a2a-cad2-495b-b8f0-37a59da23bf3")
 	)
 	(label "SCL_0"
 		(at 46.99 55.88 180)
@@ -2278,6 +2296,16 @@
 			(justify right bottom)
 		)
 		(uuid "05ac2024-a4da-45f5-b090-764d5411df04")
+	)
+	(label "Can_L"
+		(at 40.64 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0b29443a-3576-4313-8ee1-a8e3d3fb08a5")
 	)
 	(label "GND"
 		(at 45.72 139.7 0)
@@ -2348,16 +2376,6 @@
 			(justify left bottom)
 		)
 		(uuid "1c04a63a-e9c4-4a7e-a378-e9d33aca3eda")
-	)
-	(label "Can_H"
-		(at 43.18 179.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2706f516-4851-41e4-8422-a3637487b0b9")
 	)
 	(label "RES"
 		(at 204.47 92.71 0)
@@ -2529,6 +2547,16 @@
 		)
 		(uuid "6dc1733d-1fb8-43cb-a72d-820c3468c3c8")
 	)
+	(label "V_Bus"
+		(at 40.64 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6dfaa8ce-5342-425d-af04-fb4abfff66ff")
+	)
 	(label "GP1"
 		(at 67.31 129.54 0)
 		(effects
@@ -2538,16 +2566,6 @@
 			(justify left bottom)
 		)
 		(uuid "708c64c4-a161-41ee-84bf-d76363465259")
-	)
-	(label "Can_L"
-		(at 43.18 181.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7709cf57-b6fc-41b1-807d-613fdd465545")
 	)
 	(label "+3.3V"
 		(at 67.31 142.24 0)
@@ -2559,26 +2577,6 @@
 		)
 		(uuid "780e7fa9-7d7e-4290-bfd4-40de653a6331")
 	)
-	(label "USB_DP"
-		(at 36.83 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "78f488c9-cbc9-48e9-8d75-ccaef13474eb")
-	)
-	(label "V_Bus"
-		(at 43.18 166.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "80287f48-c5f2-4ce4-8099-d2a90d2a0fbe")
-	)
 	(label "GP1"
 		(at 34.29 129.54 180)
 		(effects
@@ -2588,16 +2586,6 @@
 			(justify right bottom)
 		)
 		(uuid "8410df5b-7d7f-4e97-b8ee-fc3b9a0b62b4")
-	)
-	(label "USB_DM"
-		(at 36.83 173.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "852c4b6f-f647-42e0-8356-d3050537fb87")
 	)
 	(label "GP2"
 		(at 204.47 99.06 0)
@@ -2769,6 +2757,16 @@
 		)
 		(uuid "cd92c75b-b8b8-4085-b219-13e524aa512e")
 	)
+	(label "USB_DP"
+		(at 40.64 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cdbd9a8f-537b-472c-b797-bf822f5d81ae")
+	)
 	(label "TXD"
 		(at 55.88 92.71 180)
 		(effects
@@ -2819,6 +2817,16 @@
 		)
 		(uuid "e4160fe1-2003-4d2d-b996-dca059f1d801")
 	)
+	(label "Can_H"
+		(at 40.64 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e4f718c3-365e-47ad-93c1-f1d1cc0a5ebe")
+	)
 	(label "USB_DM"
 		(at 200.66 87.63 0)
 		(effects
@@ -2828,6 +2836,16 @@
 			(justify left bottom)
 		)
 		(uuid "e78de45a-a54b-4e56-8a9f-fa0a8fa7a25f")
+	)
+	(label "USB_DM"
+		(at 40.64 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8c135a8-bfa3-4e99-aeee-64643c011595")
 	)
 	(label "SCL_0"
 		(at 201.93 71.12 0)
@@ -4220,6 +4238,118 @@
 		)
 	)
 	(sheet
+		(at 19.05 162.56)
+		(size 12.7 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "70bcdf29-8530-4823-9b1b-b4b6ab99caa0")
+		(property "Sheetname" "USB_C_3.0"
+			(at 19.05 161.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_C_3.0.kicad_sch"
+			(at 19.05 186.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_DM" input
+			(at 31.75 165.1 0)
+			(uuid "190be830-28f9-43d6-81a2-f66773451e8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" input
+			(at 31.75 167.64 0)
+			(uuid "2219c1a3-6c83-468e-9c60-11a9263792d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RX-" input
+			(at 31.75 171.45 0)
+			(uuid "e675cf77-1296-48e2-9eba-269c649ba95b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RX+" input
+			(at 31.75 173.99 0)
+			(uuid "323d1412-7cd1-484d-85b0-a609adead223")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TX+" input
+			(at 31.75 176.53 0)
+			(uuid "f1068b91-ad24-4af1-8108-07b2acc40ed1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TX-" input
+			(at 31.75 179.07 0)
+			(uuid "0f3097c5-d8ea-4c25-96bb-f1c1a19f9405")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_Bus" input
+			(at 31.75 182.88 0)
+			(uuid "fb90bd84-f693-4655-8a47-e0ae05b393e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 22.86 26.67)
 		(size 12.7 12.7)
 		(exclude_from_sim no)
@@ -4267,97 +4397,6 @@
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 21.59 163.83)
-		(size 15.24 20.32)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "a9b715b2-3c86-4c28-812a-8a4f3eb6a194")
-		(property "Sheetname" "USB_C_2.0+SBUS"
-			(at 21.336 163.322 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "USB_C_2.0+SBUS.kicad_sch"
-			(at 20.828 185.674 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "V_Bus" input
-			(at 36.83 166.37 0)
-			(uuid "56746567-f21c-426a-aed3-4355075f273c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Out_1" input
-			(at 36.83 179.07 0)
-			(uuid "de11c56c-5c9e-4d39-a217-12be02ad8d5d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Out_2" input
-			(at 36.83 181.61 0)
-			(uuid "f955905a-99aa-4830-a3c4-338da2b50d8a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USB_DP" input
-			(at 36.83 171.45 0)
-			(uuid "983c13da-86b8-4ec9-917b-a9db13354c05")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USB_DM" input
-			(at 36.83 173.99 0)
-			(uuid "7b270852-5030-4b19-9003-306c6213cebb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "SensorHub_2.0"
-				(path "/9668bc71-8924-498e-982f-628f3083c8b8"
-					(page "6")
 				)
 			)
 		)
