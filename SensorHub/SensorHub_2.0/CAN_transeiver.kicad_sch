@@ -740,18 +740,6 @@
 		(color 0 0 0 0)
 		(uuid "994f7e43-23aa-4e5a-9502-7c5215367f31")
 	)
-	(junction
-		(at 149.86 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e895c083-5c90-4c3b-a8d1-c2564035d40b")
-	)
-	(junction
-		(at 162.56 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ebfebf16-eb65-4813-a87e-d2b4aacb851e")
-	)
 	(wire
 		(pts
 			(xy 118.11 90.17) (xy 110.49 90.17)
@@ -771,16 +759,6 @@
 			(type default)
 		)
 		(uuid "070eed46-ca8d-4670-87e6-dc3827308d62")
-	)
-	(wire
-		(pts
-			(xy 149.86 107.95) (xy 149.86 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2159c305-acc2-40fc-b7a7-6403edf06ec9")
 	)
 	(wire
 		(pts
@@ -814,13 +792,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 113.03) (xy 162.56 113.03)
+			(xy 144.78 105.41) (xy 149.86 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5156c04c-d6f2-49cf-87ab-dd8180911a2f")
+		(uuid "55ef0574-567e-462a-8ba6-bdd182be5645")
 	)
 	(wire
 		(pts
@@ -854,23 +832,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 114.3) (xy 162.56 113.03)
+			(xy 135.89 105.41) (xy 137.16 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b45b3cbf-903f-4f9a-89aa-dcb7c3890405")
-	)
-	(wire
-		(pts
-			(xy 149.86 105.41) (xy 149.86 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb5aba0c-761b-4c54-a2af-9f174e196983")
+		(uuid "ec559a6f-0ef6-40b5-8a47-d76cb448ecca")
 	)
 	(label "Can_L"
 		(at 118.11 116.84 90)
@@ -891,6 +859,17 @@
 			(justify left bottom)
 		)
 		(uuid "ea265628-df01-4bd6-b5e4-1d132d114756")
+	)
+	(hierarchical_label "STB"
+		(shape input)
+		(at 149.86 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "128416df-b5f2-449f-ad14-130336a245d6")
 	)
 	(hierarchical_label "Can_H"
 		(shape input)
@@ -1298,8 +1277,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 140.97 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d400e5e-0da1-4a44-a0d6-a2f17a754480")
+		(property "Reference" "R16"
+			(at 140.97 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 140.97 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 140.97 107.188 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 140.97 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dad2ae3a-9083-4a60-83bb-1d4649dc3c70")
+		)
+		(pin "2"
+			(uuid "e811136f-635e-4f53-9dbb-c9a02484d93f")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/aeef27da-d3bb-47bb-8fd5-6871969d5416"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 162.56 114.3 0)
+		(at 162.56 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1308,7 +1355,7 @@
 		(fields_autoplaced yes)
 		(uuid "af1c29e5-2d9d-4568-89df-3854aadbd7f4")
 		(property "Reference" "#PWR015"
-			(at 162.56 120.65 0)
+			(at 162.56 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1317,7 +1364,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 119.38 0)
+			(at 162.56 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1325,7 +1372,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 114.3 0)
+			(at 162.56 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1334,7 +1381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 114.3 0)
+			(at 162.56 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1343,7 +1390,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 114.3 0)
+			(at 162.56 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1358,6 +1405,72 @@
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8/aeef27da-d3bb-47bb-8fd5-6871969d5416"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b74b5ea1-f36c-4395-961b-977c684b4f54")
+		(property "Reference" "#PWR03"
+			(at 135.89 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55d1019f-269b-4001-823e-25e43d90d8e5")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/aeef27da-d3bb-47bb-8fd5-6871969d5416"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)

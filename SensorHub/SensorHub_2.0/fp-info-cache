@@ -1,18 +1,4 @@
-27286489426711725
-1312020030000
-1312020030000
-
-
-0
-4
-4
-ASH7KW-32.768KHZ-L-T
-XTAL_ASH7KW-32.768KHZ-L-T
-
-
-0
-4
-4
+27281167331647255
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -27,13 +13,6 @@ audio belton reverb
 0
 7
 7
-BMI270
-XDCR_BMI270
-
-
-0
-14
-14
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -62404,13 +62383,6 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
-FTSH-105-01-L-DV-K-A
-SAMTEC_FTSH-105-01-L-DV-K-A
-translated Allegro footprint
-
-0
-10
-10
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -72022,34 +71994,6 @@ Yellow 5381 Series LED
 0
 2
 2
-LSM6DSM
-PQFN50P300X250X86-14N
-
-
-0
-14
-14
-Library
-ASCODV-24.000MHZ-LR-T3
-
-
-0
-4
-4
-Library
-B3U-1000P(M)-B
-
-
-0
-2
-2
-MYRGM080200C41RA
-MURATA_MYRGM080200C41RA_0
-Non-Isolated PoL Module DC DC Converter Output 0.8V - - - 2A 2.7V - 6V Input
-
-0
-22
-22
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -108149,24 +108093,59 @@ Varistor VF
 0
 2
 2
-eec
-Renesas-PLQP0064KB-C-0-0-IPC_A
+footprints
+1312020030000
 
 
 0
-64
-64
-eec
-Renesas-PLQP0064KB-C-0-0-IPC_B
+4
+4
+footprints
+ASCODV-24.000MHZ-LR-T3
 
 
 0
-64
-64
-eec
-Renesas-PLQP0064KB-C-0-0-IPC_C
+4
+4
+footprints
+B3U-1000P(M)-B
 
 
 0
-64
-64
+2
+2
+footprints
+MURATA_MYRGM080200C41RA_0
+Non-Isolated PoL Module DC DC Converter Output 0.8V - - - 2A 2.7V - 6V Input
+
+0
+22
+22
+footprints
+PQFN50P300X250X86-14N
+
+
+0
+14
+14
+footprints
+SAMTEC_FTSH-105-01-L-DV-K-A
+translated Allegro footprint
+
+0
+10
+10
+footprints
+XDCR_BMI270
+
+
+0
+14
+14
+footprints
+XTAL_ASH7KW-32.768KHZ-L-T
+
+
+0
+4
+4
