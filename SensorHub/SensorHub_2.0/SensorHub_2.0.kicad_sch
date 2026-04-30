@@ -4208,6 +4208,15 @@
 				)
 			)
 		)
+		(property "MPN" "658561423020"
+			(at 62.23 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "10eca46a-a0a9-4ff8-8f8a-662ba3ff2ebe")
 		)
@@ -4539,6 +4548,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "658561423020"
+			(at 39.37 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "14"
@@ -5606,6 +5624,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "USBLC6-4SC6Y "
+			(at 154.94 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "292a26f6-dda1-4238-80cf-f00b52928fa7")
 		)
@@ -5750,6 +5777,15 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 4 data-line, SOT-23-6"
+			(at 154.94 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "USBLC6-4SC6Y "
 			(at 154.94 123.19 0)
 			(effects
 				(font

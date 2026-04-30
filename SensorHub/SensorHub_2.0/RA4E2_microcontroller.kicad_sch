@@ -5250,7 +5250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://nl.mouser.com/datasheet/3/184/1/ASH7KW.pdf"
 			(at 54.61 93.98 0)
 			(effects
 				(font
@@ -5405,6 +5405,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ASH7KW-32.768KHZ-L-T "
+			(at 54.61 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6717,6 +6726,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "R7FA4E2B93CFM#AA0"
+			(at 203.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "39"
 			(uuid "ceedc3f5-84bd-48de-a557-4dd07d171347")
 		)
@@ -7404,7 +7422,7 @@
 				)
 			)
 		)
-		(property "Value" "1312020030000"
+		(property "Value" "LED"
 			(at 45.212 125.984 0)
 			(effects
 				(font
@@ -7422,7 +7440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/1312020030000.pdf"
 			(at 46.99 133.35 0)
 			(effects
 				(font
@@ -7530,6 +7548,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "1312020030000"
+			(at 46.99 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f92746d9-b24f-49ce-895b-c41ca7396531")
 		)
@@ -7588,7 +7615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/en-b3u.pdf?_gl=1*1hale0w*_gcl_aw*R0NMLjE3Nzc1NDczODcuQ2p3S0NBanctOHZQQmhCYkVpd0FvQTM5V21qOE1FMEhGMTJsZnVsd1dsanpUT2lLOUp5a3NWMndHOXk0X2pxV0NTQ1ZHQTdyREplemFSb0NiajRRQXZEX0J3RQ..*_gcl_au*MTEyMDA2MzkwNS4xNzczNDExMzc2LjMyODU5NDQyNi4xNzc3NTQ2NjQ1LjE3Nzc1NDg3NTQ.*_ga*Mjg1MTQ4MTY2LjE3NzM0MTEzNzc.*_ga_15W4STQT4T*czE3Nzc1NDUwNzgkbzU0JGcxJHQxNzc3NTQ4NzU4JGozJGwwJGgw"
 			(at 139.7 57.15 0)
 			(effects
 				(font
@@ -7599,6 +7626,15 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 144.78 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B3U-1000PM-B"
+			(at 144.78 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7747,6 +7783,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "USBLC6-4SC6Y "
+			(at 82.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "8905c197-5659-4d31-9d39-fb1d16c1d2a2")
 		)
@@ -7791,7 +7836,7 @@
 				)
 			)
 		)
-		(property "Value" "1312020030000"
+		(property "Value" "LED"
 			(at 45.72 147.066 0)
 			(effects
 				(font
@@ -7809,7 +7854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/1312020030000.pdf"
 			(at 46.99 154.94 0)
 			(effects
 				(font
@@ -7914,6 +7959,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "1312020030000"
+			(at 46.99 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

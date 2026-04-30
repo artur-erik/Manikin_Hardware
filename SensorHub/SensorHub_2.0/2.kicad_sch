@@ -2344,7 +2344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://nl.mouser.com/datasheet/3/508/1/SMD1206_1.pdf"
 			(at 30.48 48.26 0)
 			(effects
 				(font
@@ -2354,6 +2354,15 @@
 			)
 		)
 		(property "Description" "Fuse"
+			(at 30.48 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMD1206B050TF "
 			(at 30.48 48.26 0)
 			(effects
 				(font
@@ -2614,7 +2623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://nl.mouser.com/datasheet/3/76/2/MYRGM_c_x.pdf"
 			(at 58.42 25.4 0)
 			(effects
 				(font

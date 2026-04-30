@@ -596,12 +596,630 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "AMBIENT_TEMPERATURE_RANGE_LOW",
+          "name": "AMBIENT_TEMPERATURE_RANGE_LOW",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AUTOMOTIVE",
+          "name": "AUTOMOTIVE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CENTROID_NOT_SPECIFIED",
+          "name": "CENTROID_NOT_SPECIFIED",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Critical Parameter",
+          "name": "Critical Parameter",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DATASHEET",
+          "name": "DATASHEET",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DEVICE_CLASS_L1",
+          "name": "DEVICE_CLASS_L1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DEVICE_CLASS_L2",
+          "name": "DEVICE_CLASS_L2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DEVICE_CLASS_L3",
+          "name": "DEVICE_CLASS_L3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DIGIKEY_DESCRIPTION",
+          "name": "DIGIKEY_DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DIGIKEY_PART_NUMBER",
+          "name": "DIGIKEY_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey_Part_Number",
+          "name": "DigiKey_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FOOTPRINT_VARIANT_NAME_0",
+          "name": "FOOTPRINT_VARIANT_NAME_0",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Gender",
+          "name": "Gender",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "H (mm)",
+          "name": "H (mm)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "HEIGHT",
+          "name": "HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IR (mA)",
+          "name": "IR (mA)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LEAD_FREE",
+          "name": "LEAD_FREE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAX_DUTY_CYCLE",
+          "name": "MAX_DUTY_CYCLE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAX_POWER_DISSIPATION",
+          "name": "MAX_POWER_DISSIPATION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAX_SUPPLY_VOLTAGE",
+          "name": "MAX_SUPPLY_VOLTAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFG_PACKAGE_IDENT",
+          "name": "MFG_PACKAGE_IDENT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFG_PACKAGE_IDENT_COMPONENT_ID",
+          "name": "MFG_PACKAGE_IDENT_COMPONENT_ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFG_PACKAGE_IDENT_DATE",
+          "name": "MFG_PACKAGE_IDENT_DATE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFG_PACKAGE_IDENT_REV",
+          "name": "MFG_PACKAGE_IDENT_REV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MIN_SUPPLY_VOLTAGE",
+          "name": "MIN_SUPPLY_VOLTAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOUSER_PART_NUMBER",
+          "name": "MOUSER_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer URL",
+          "name": "Manufacturer URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Match Code",
+          "name": "Match Code",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mounting Technology",
+          "name": "Mounting Technology",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NOMINAL_SUPPLY_CURRENT",
+          "name": "NOMINAL_SUPPLY_CURRENT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NUMBER_OF_OUTPUTS",
+          "name": "NUMBER_OF_OUTPUTS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OUTPUT_CURRENT",
+          "name": "OUTPUT_CURRENT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OUTPUT_TYPE",
+          "name": "OUTPUT_TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OUTPUT_VOLTAGE",
+          "name": "OUTPUT_VOLTAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE",
+          "name": "PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PREFIX",
+          "name": "PREFIX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Pins (pcs)",
+          "name": "Pins (pcs)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Pitch (mm)",
+          "name": "Pitch (mm)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Published Date",
+          "name": "Published Date",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purchase-URL",
+          "name": "Purchase-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RAM size",
+          "name": "RAM size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ROHS",
+          "name": "ROHS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SWITCHING_FREQUENCY",
+          "name": "SWITCHING_FREQUENCY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SWITCHING_TOPOLOGY",
+          "name": "SWITCHING_TOPOLOGY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TEMPERATURE_RANGE_HIGH",
+          "name": "TEMPERATURE_RANGE_HIGH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TEMPERATURE_RANGE_LOW",
+          "name": "TEMPERATURE_RANGE_LOW",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Type",
+          "name": "Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VERIFICATION_VERSION",
+          "name": "VERIFICATION_VERSION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ambient temperature range high",
+          "name": "ambient temperature range high",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ambient temperature range low",
+          "name": "ambient temperature range low",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "automotive",
+          "name": "automotive",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "category",
+          "name": "category",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "certified",
+          "name": "certified",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "core architecture",
+          "name": "core architecture",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "data bus width",
+          "name": "data bus width",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "datasheet date",
+          "name": "datasheet date",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "datasheet version",
+          "name": "datasheet version",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "device class L1",
+          "name": "device class L1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "device class L2",
+          "name": "device class L2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "device class L3",
+          "name": "device class L3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "digikey description",
+          "name": "digikey description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "digikey part number",
+          "name": "digikey part number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "footprint description",
+          "name": "footprint description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "footprint url",
+          "name": "footprint url",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "frequency",
+          "name": "frequency",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "gender",
+          "name": "gender",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "height",
+          "name": "height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "interface",
+          "name": "interface",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ipc land pattern name",
+          "name": "ipc land pattern name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "lead free",
+          "name": "lead free",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "library id",
+          "name": "library id",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "manufacturer",
+          "name": "manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "max junction temp",
+          "name": "max junction temp",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "max supply voltage",
+          "name": "max supply voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "memory size",
+          "name": "memory size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "memory type",
+          "name": "memory type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "min supply voltage",
+          "name": "min supply voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "mouser part number",
+          "name": "mouser part number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "package",
+          "name": "package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "rohs",
+          "name": "rohs",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "standoff height",
+          "name": "standoff height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "style guide version",
+          "name": "style guide version",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "temperature range high",
+          "name": "temperature range high",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "temperature range low",
+          "name": "temperature range low",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AMBIENT_TEMPERATURE_RANGE_HIGH",
+          "name": "AMBIENT_TEMPERATURE_RANGE_HIGH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

@@ -1243,6 +1243,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TCAN334GDCNT "
+			(at 162.56 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "7ff8d560-fbe8-48a9-a597-b53b12b2fe9a")
 		)

@@ -2433,6 +2433,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 120.65) (xy 82.55 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78f3b69e-8801-4096-834a-2a8e9de72bd2")
+	)
+	(wire
+		(pts
 			(xy 78.74 54.61) (xy 62.23 54.61)
 		)
 		(stroke
@@ -2450,6 +2460,16 @@
 			(type default)
 		)
 		(uuid "7acb5274-dbc0-49b9-8ab5-b46a58be23af")
+	)
+	(wire
+		(pts
+			(xy 88.9 120.65) (xy 88.9 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d83b5c9-bdce-47e6-bd85-d6777a7c67f4")
 	)
 	(wire
 		(pts
@@ -2513,6 +2533,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 144.78) (xy 82.55 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b77a4d71-5d8b-4d92-806e-64fe1db03b01")
+	)
+	(wire
+		(pts
 			(xy 201.93 92.71) (xy 201.93 90.17)
 		)
 		(stroke
@@ -2560,6 +2590,16 @@
 			(type default)
 		)
 		(uuid "e6d5905b-cf25-472f-b614-e1bd2897bce4")
+	)
+	(wire
+		(pts
+			(xy 88.9 144.78) (xy 88.9 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e94e549b-5f22-4a05-bda4-c02c3aecf6a6")
 	)
 	(wire
 		(pts
@@ -2620,6 +2660,26 @@
 			(justify right bottom)
 		)
 		(uuid "31b9ffb0-4ea2-4ae7-9e64-79a53d344153")
+	)
+	(label "CC2"
+		(at 88.9 120.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33705e22-441c-4c20-be7b-3b8f631fb2dc")
+	)
+	(label "CC1"
+		(at 82.55 120.65 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "48239dd5-f238-4691-bed4-826deb4cc36b")
 	)
 	(label "V_Bus"
 		(at 260.35 73.66 0)
@@ -2994,6 +3054,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "LMV339IDR "
+			(at 226.06 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4be1156d-046d-42bc-99ed-78f6fe73b3fb")
 		)
@@ -3170,6 +3239,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "USBLC6-4SC6Y "
+			(at 147.32 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "90e6883e-fdfb-4820-abd7-ed9e795d4f37")
 		)
@@ -3316,6 +3394,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "LMV339IDR "
+			(at 222.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4be1156d-046d-42bc-99ed-78f6fe73b3fc")
 		)
@@ -3429,6 +3516,75 @@
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8/11b97493-56d6-42b3-8b75-1fad707fd30e"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 82.55 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e2c6179-1814-4395-9929-72add52065d8")
+		(property "Reference" "R6"
+			(at 82.55 126.746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1 K"
+			(at 82.55 129.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 80.772 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 82.55 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a4f60e1-0a59-4e96-b232-fcc5d69bebe4")
+		)
+		(pin "2"
+			(uuid "6e89f3eb-fbc8-481c-9600-7eb35dcbe537")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/11b97493-56d6-42b3-8b75-1fad707fd30e"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3685,6 +3841,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "LMV339IDR "
+			(at 243.84 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4be1156d-046d-42bc-99ed-78f6fe73b3fd")
 		)
@@ -3732,6 +3897,72 @@
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8/11b97493-56d6-42b3-8b75-1fad707fd30e"
 					(reference "U10")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ff75b70-66ae-44a3-89ec-60a97f73eacd")
+		(property "Reference" "#PWR055"
+			(at 88.9 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "407e5372-df72-4136-a4e4-a94c88894316")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/11b97493-56d6-42b3-8b75-1fad707fd30e"
+					(reference "#PWR055")
+					(unit 1)
 				)
 			)
 		)
@@ -3939,6 +4170,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 82.55 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85dcf74d-8b8f-46be-a48f-9107c1fbe725")
+		(property "Reference" "#PWR056"
+			(at 82.55 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08e2834e-c2f7-4eeb-9b39-d997f6013112")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/11b97493-56d6-42b3-8b75-1fad707fd30e"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 111.76 133.35 0)
 		(unit 1)
@@ -4002,6 +4299,75 @@
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8/11b97493-56d6-42b3-8b75-1fad707fd30e"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 88.9 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9370a05b-be41-4c37-b388-7992a2439985")
+		(property "Reference" "R5"
+			(at 88.9 126.746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1 K"
+			(at 88.9 129.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 87.122 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ded60de8-be2e-4ea3-a0fb-7b86c3e8e93e")
+		)
+		(pin "2"
+			(uuid "e331358c-fa85-42ca-a6c8-7353a20ad2bd")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/11b97493-56d6-42b3-8b75-1fad707fd30e"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4120,6 +4486,15 @@
 			)
 		)
 		(property "Description" "Quad General-Purpose Low-Voltage Comparator, SOIC-14/TSSOP-14"
+			(at 262.89 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LMV339IDR "
 			(at 262.89 81.28 0)
 			(effects
 				(font
@@ -4362,6 +4737,15 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 4 data-line, SOT-23-6"
+			(at 147.32 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "USBLC6-4SC6Y "
 			(at 147.32 72.39 0)
 			(effects
 				(font
@@ -4668,6 +5052,15 @@
 			)
 		)
 		(property "Description" "Quad General-Purpose Low-Voltage Comparator, SOIC-14/TSSOP-14"
+			(at 226.06 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LMV339IDR "
 			(at 226.06 107.95 0)
 			(effects
 				(font
