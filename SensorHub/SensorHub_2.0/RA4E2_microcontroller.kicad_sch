@@ -4631,7 +4631,7 @@
 		(uuid "3aaeacad-7b1f-4970-a488-ff2e7fb81cd3")
 	)
 	(label "RXD"
-		(at 43.18 43.18 0)
+		(at 41.91 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4770,16 +4770,6 @@
 		)
 		(uuid "73f8de54-b750-44ad-b137-48be61471587")
 	)
-	(label "EXTAL"
-		(at 41.91 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7c696a9e-e230-433a-aa0a-6974f44ef739")
-	)
 	(label "LED"
 		(at 205.74 135.89 180)
 		(effects
@@ -4801,7 +4791,7 @@
 		(uuid "843eac70-c155-4983-93b4-df802a541553")
 	)
 	(label "GND"
-		(at 40.64 40.64 0)
+		(at 43.18 43.18 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8769,7 +8759,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 43.18 43.18 90)
+		(at 41.91 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8777,73 +8767,6 @@
 		(dnp no)
 		(uuid "e9c28c57-7561-405d-9a5b-9c324b98d0a6")
 		(property "Reference" "TP8"
-			(at 34.798 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 36.3219 47.752 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 43.18 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 43.18 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d5bf5ef4-4058-4eb0-9607-3649f5c229ee")
-		)
-		(instances
-			(project "SensorHub_2.0"
-				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 41.91 46.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eabc0164-e9ba-4df4-b739-c21994f23a70")
-		(property "Reference" "TP6"
 			(at 33.528 51.562 0)
 			(effects
 				(font
@@ -8890,12 +8813,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1bbc1957-b322-4160-b1e0-9264b8c6dc32")
+			(uuid "d5bf5ef4-4058-4eb0-9607-3649f5c229ee")
 		)
 		(instances
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
-					(reference "TP6")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -8969,7 +8892,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 40.64 40.64 90)
+		(at 43.18 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8977,7 +8900,7 @@
 		(dnp no)
 		(uuid "f1323cbc-747d-4c9a-8250-d969d2c06ca0")
 		(property "Reference" "TP10"
-			(at 32.258 45.212 0)
+			(at 34.798 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8986,7 +8909,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 33.7819 45.212 0)
+			(at 36.3219 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8996,7 +8919,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 40.64 35.56 0)
+			(at 43.18 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9005,7 +8928,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 35.56 0)
+			(at 43.18 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9014,7 +8937,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 40.64 40.64 0)
+			(at 43.18 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
