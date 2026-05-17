@@ -1205,211 +1205,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Compressions_TOF_VL53L4CD_v1.0.0_mar2025-eagle-import:LED-RED0603"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -3.429 -4.572 90)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 1.905 -4.572 90)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "Compressions_TOF_VL53L4CD_v1.0.0_mar2025:LED-0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Red SMD LED\n\nUsed in manufacturing of most products at SparkFun\n\nPackages:\n\n• 0603 - SMD 0603 package http://docs.avagotech.com/docs/AV02-0551EN [Product Link]\n• 0603 SMART - SMD 0603 SMART package ( more efficient and expensive)http://www.osram-os.com/Graphics/XPic2/00077099_0.pdf [Product Link]\n•  1206 - SMD1206  package https://www.sparkfun.com/datasheets/DevTools/LilyPad/Q150OVS4.pdff [Product Link]\n\nSparkFun Products:\n\n• Pro Mini 328 -5V\n• RedBoard\n• IOIO-OTG"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED-RED0603_1_0"
-				(polyline
-					(pts
-						(xy -3.429 2.159) (xy -3.048 1.27) (xy -2.54 1.778)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.302 3.302) (xy -2.921 2.413) (xy -2.413 2.921)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy -3.429 -2.159)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.905) (xy -3.302 -3.302)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Compressions_TOF_VL53L4CD_v1.0.0_mar2025-eagle-import:VL53L4CD"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2804,29 +2599,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
-			(power)
+		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+			(property "Reference" "D"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2842,7 +2635,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2851,7 +2644,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Light emitting diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2860,7 +2653,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "global power"
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2869,10 +2662,28 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
 				(polyline
 					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -2884,7 +2695,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -2896,7 +2707,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy -1.27 0) (xy 1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -2906,12 +2717,36 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2926,124 +2761,17 @@
 						)
 					)
 				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3123,8 +2851,16 @@
 		(uuid "9058f120-dfce-4ecd-8677-a28bfeaebe78")
 	)
 	(no_connect
+		(at 232.41 76.2)
+		(uuid "bcf03e9d-5628-4c32-816d-0e088ac621cb")
+	)
+	(no_connect
 		(at 215.9 66.04)
 		(uuid "eaf3211f-79ab-45c3-9e34-89f22e703145")
+	)
+	(no_connect
+		(at 232.41 63.5)
+		(uuid "f214566d-abd2-4d8a-83a9-594379027399")
 	)
 	(wire
 		(pts
@@ -3596,16 +3332,6 @@
 		)
 		(uuid "fa0d17fd-41cb-4ed8-8e25-dabd6c61c57f")
 	)
-	(label "SDA_0"
-		(at 215.9 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "05d19477-3a74-4d1a-a1c2-a1839cde35b5")
-	)
 	(label "GND"
 		(at 215.9 78.74 180)
 		(effects
@@ -3616,16 +3342,6 @@
 		)
 		(uuid "0e26dea7-4acf-4af5-b30c-50fd20133a67")
 	)
-	(label "SDA"
-		(at 185.42 50.8 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "1332424d-f6ff-4205-a0d4-4f158d0e0b4b")
-	)
 	(label "GND"
 		(at 215.9 73.66 180)
 		(effects
@@ -3635,16 +3351,6 @@
 			(justify right bottom)
 		)
 		(uuid "167071a1-dd1c-45c9-a5c3-7b391f3536c3")
-	)
-	(label "SCL"
-		(at 185.42 53.34 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "1c232183-3182-4a73-8b52-d67a9f833e14")
 	)
 	(label "~{INT}"
 		(at 173.99 82.55 0)
@@ -3676,16 +3382,6 @@
 		)
 		(uuid "40567e5e-3bc5-46a6-87ae-d81bc13b8e7d")
 	)
-	(label "GP1"
-		(at 232.41 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5dad9ac6-42bc-4f1b-86d9-dc178d6f0145")
-	)
 	(label "~{SHUT}"
 		(at 173.99 74.93 0)
 		(effects
@@ -3707,12 +3403,12 @@
 		(uuid "7673f4ff-e810-490b-8010-51e0cb39c009")
 	)
 	(label "~{SHUT}"
-		(at 176.53 50.8 180)
+		(at 232.41 68.58 0)
 		(effects
 			(font
 				(size 0.889 0.889)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "7e179e60-9cfc-4b78-b770-9ea5837ec2cd")
 	)
@@ -3726,28 +3422,18 @@
 		)
 		(uuid "8348948f-6779-499b-a554-41078fcfa351")
 	)
-	(label "GND"
-		(at 185.674 58.42 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "84cfcb6a-47af-4af7-a918-01a970e692e5")
-	)
 	(label "~{INT}"
-		(at 176.53 53.34 180)
+		(at 232.41 71.12 0)
 		(effects
 			(font
 				(size 0.889 0.889)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "8b6a2e3f-94b8-436f-8971-0f2777fde9ed")
 	)
 	(label "SDA"
-		(at 176.53 58.42 180)
+		(at 215.9 76.2 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -3796,28 +3482,8 @@
 		)
 		(uuid "b73ba1f3-33ee-4344-aa04-1e432ef54b57")
 	)
-	(label "3.3V"
-		(at 185.674 55.88 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "ba401c3e-1278-462e-9b49-eda79b219ced")
-	)
-	(label "INT2"
-		(at 232.41 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d3546850-7d59-4e01-92d9-07a07f7d6600")
-	)
 	(label "SCL"
-		(at 176.53 55.88 180)
+		(at 215.9 81.28 180)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -3835,16 +3501,6 @@
 			(justify left bottom)
 		)
 		(uuid "f50ef98a-6744-4c4e-9298-c2ec0f35d030")
-	)
-	(label "SCL_0"
-		(at 215.9 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f8e4dae0-dd94-4dc7-94a4-be86971a2f8f")
 	)
 	(symbol
 		(lib_id "Compressions_TOF_VL53L4CD_v1.0.0_mar2025-eagle-import:GND")
@@ -3939,7 +3595,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "Compressions_TOF_VL53L4CD_v1.0.0_mar2025:0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 148.59 67.31 0)
 			(effects
 				(font
@@ -3982,73 +3638,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 232.41 63.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06573063-05ac-433f-a2f0-ddc067d65ce3")
-		(property "Reference" "#PWR059"
-			(at 228.6 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 236.22 63.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 232.41 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29240eb7-1073-41a0-b0cc-93781d587d74")
-		)
-		(instances
-			(project "CompressionSensor_2.0"
-				(path "/d3ec38bd-8f80-4dff-95c0-1bd689551af3"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Compressions_TOF_VL53L4CD_v1.0.0_mar2025-eagle-import:1KOHM-0603-1/10W-1%")
 		(at 130.81 123.19 90)
 		(unit 1)
@@ -4075,7 +3664,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "Compressions_TOF_VL53L4CD_v1.0.0_mar2025:0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 130.81 123.19 0)
 			(effects
 				(font
@@ -4276,7 +3865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Compressions_TOF_VL53L4CD_v1.0.0_mar2025:0805-NO"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 80.01 80.01 0)
 			(effects
 				(font
@@ -4607,7 +4196,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Compressions_TOF_VL53L4CD_v1.0.0_mar2025:0805-NO"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 69.85 80.01 0)
 			(effects
 				(font
@@ -4650,75 +4239,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Compressions_TOF_VL53L4CD_v1.0.0_mar2025-eagle-import:LED-RED0603")
-		(at 130.81 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "58ca195b-83a9-44e7-8325-c4dd6b6f0393")
-		(property "Reference" "D1"
-			(at 127.381 137.922 90)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "RED"
-			(at 132.715 137.922 90)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "Compressions_TOF_VL53L4CD_v1.0.0_mar2025:LED-0603"
-			(at 130.81 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 130.81 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "14379eaf-5403-4690-b64c-848435d815d0")
-		)
-		(pin "C"
-			(uuid "4c224aa9-19c4-4c6e-869d-67251a2e8714")
-		)
-		(instances
-			(project "CompressionSensor_2.0"
-				(path "/d3ec38bd-8f80-4dff-95c0-1bd689551af3"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Compressions_TOF_VL53L4CD_v1.0.0_mar2025-eagle-import:10KOHM-0603-1/10W-1%")
 		(at 140.97 67.31 90)
 		(unit 1)
@@ -4745,7 +4265,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "Compressions_TOF_VL53L4CD_v1.0.0_mar2025:0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 140.97 67.31 0)
 			(effects
 				(font
@@ -4788,6 +4308,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Compressions_TOF_VL53L4CD_v1.0.0_mar2025-eagle-import:3.3V")
+		(at 232.41 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "778b43d0-cb8c-47b6-8dc6-cd9a2c009f65")
+		(property "Reference" "#SUPPLY01"
+			(at 232.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 235.204 81.28 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d28657af-ffe6-4dad-845e-16c9f657b175")
+		)
+		(instances
+			(project "CompressionSensor_2.0"
+				(path "/d3ec38bd-8f80-4dff-95c0-1bd689551af3"
+					(reference "#SUPPLY01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Compressions_TOF_VL53L4CD_v1.0.0_mar2025-eagle-import:0.1UF-0603-25V-(+80/-20%)")
 		(at 100.33 80.01 0)
 		(unit 1)
@@ -4814,7 +4400,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Compressions_TOF_VL53L4CD_v1.0.0_mar2025:0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 100.33 80.01 0)
 			(effects
 				(font
@@ -4950,73 +4536,6 @@
 			(project "CompressionSensor_2.0"
 				(path "/d3ec38bd-8f80-4dff-95c0-1bd689551af3"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 232.41 81.28 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c91e161-9b43-45e1-8004-6ea7220930af")
-		(property "Reference" "#PWR060"
-			(at 228.6 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 236.22 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 232.41 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da7f1000-a63e-44cd-98ac-9922900f559d")
-		)
-		(instances
-			(project "CompressionSensor_2.0"
-				(path "/d3ec38bd-8f80-4dff-95c0-1bd689551af3"
-					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -5379,7 +4898,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Compressions_TOF_VL53L4CD_v1.0.0_mar2025:0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 90.17 80.01 0)
 			(effects
 				(font
@@ -5416,6 +4935,85 @@
 			(project "CompressionSensor_2.0"
 				(path "/d3ec38bd-8f80-4dff-95c0-1bd689551af3"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 130.81 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c73c6521-3e11-4799-a2d3-c7e32b5f9710")
+		(property "Reference" "D2"
+			(at 134.62 134.9374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 134.62 137.4774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 130.81 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 130.81 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 130.81 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bf2b8e2-0293-443c-a2c3-238fdb003691")
+		)
+		(pin "2"
+			(uuid "26ea2e33-5eb8-4787-b93d-3835a0f394b4")
+		)
+		(instances
+			(project ""
+				(path "/d3ec38bd-8f80-4dff-95c0-1bd689551af3"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5548,72 +5146,6 @@
 			(project "CompressionSensor_2.0"
 				(path "/d3ec38bd-8f80-4dff-95c0-1bd689551af3"
 					(reference "#SUPPLY3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Compressions_TOF_VL53L4CD_v1.0.0_mar2025-eagle-import:3.3V")
-		(at 185.674 55.88 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e9d66bf6-9ece-43cd-89a6-ef6bd9690020")
-		(property "Reference" "#SUPPLY8"
-			(at 185.674 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 188.468 55.88 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.674 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.674 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 185.674 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f0c0ac5-7ea6-482d-80bf-d54c8cb23df9")
-		)
-		(instances
-			(project "CompressionSensor_2.0"
-				(path "/d3ec38bd-8f80-4dff-95c0-1bd689551af3"
-					(reference "#SUPPLY8")
 					(unit 1)
 				)
 			)

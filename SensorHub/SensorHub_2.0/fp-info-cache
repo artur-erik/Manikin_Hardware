@@ -1,18 +1,4 @@
-27291825814890600
-1312020030000
-1312020030000
-
-
-0
-4
-4
-ASCODV-24.000MHZ-LR-T3
-ASCODV-24.000MHZ-LR-T3
-
-
-0
-4
-4
+27275842653396971
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -27,13 +13,6 @@ audio belton reverb
 0
 7
 7
-B3U-1000P(M)-B
-B3U-1000P(M)-B
-
-
-0
-2
-2
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -72029,13 +72008,6 @@ B3U-1000P(M)-B
 0
 2
 2
-MURATA_MYRGM080200C41RA_0
-MURATA_MYRGM080200C41RA_0
-Non-Isolated PoL Module DC DC Converter Output 0.8V - - - 2A 2.7V - 6V Input
-
-0
-22
-22
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -76180,13 +76152,6 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
-PQFN50P300X250X86-14N
-PQFN50P300X250X86-14N
-
-
-0
-14
-14
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
 Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf#page=13
@@ -95276,13 +95241,6 @@ Potentiometer vertical vishay
 0
 3
 3
-QFN50P300X300X100-17N
-QFN50P300X300X100-17N
-QFN16 3x3mm
-Integrated Circuit
-0
-17
-17
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
@@ -98902,13 +98860,6 @@ rotary encoder illuminated switch vertical
 0
 9
 8
-SAMTEC_FTSH-105-01-L-DV-K-A
-SAMTEC_FTSH-105-01-L-DV-K-A
-translated Allegro footprint
-
-0
-10
-10
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -108156,20 +108107,6 @@ Varistor VF
 0
 2
 2
-XDCR_BMI270
-XDCR_BMI270
-
-
-0
-14
-14
-XTAL_ASH7KW-32.768KHZ-L-T
-XTAL_ASH7KW-32.768KHZ-L-T
-
-
-0
-4
-4
 eec
 Renesas-PLQP0064KB-C-0-0-IPC_A
 

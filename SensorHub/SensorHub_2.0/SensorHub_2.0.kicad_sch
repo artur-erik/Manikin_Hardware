@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "SensorHub_2.3_ManikinSystem26")
-		(date "28.04.2026")
+		(date "17.05.2026")
 		(comment 4 "Design by Artur Erik")
 	)
 	(lib_symbols
