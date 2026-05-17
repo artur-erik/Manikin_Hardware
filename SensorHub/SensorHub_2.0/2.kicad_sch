@@ -1928,7 +1928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 64.262 81.28 90)
 			(effects
 				(font
@@ -2265,7 +2265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 64.262 91.44 90)
 			(effects
 				(font
@@ -2412,7 +2412,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 97.79 47.498 90)
 			(effects
 				(font
@@ -2613,7 +2613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MYRGM080200C41RA:MURATA_MYRGM080200C41RA_0"
+		(property "Footprint" "MURATA_MYRGM080200C41RA_0:MURATA_MYRGM080200C41RA_0"
 			(at 58.42 25.4 0)
 			(effects
 				(font

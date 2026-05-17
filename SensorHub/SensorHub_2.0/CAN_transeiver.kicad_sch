@@ -724,7 +724,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Pull-Up\n(optional)"
+	(text "terminating R\n(optional)"
 		(exclude_from_sim no)
 		(at 118.872 85.344 0)
 		(effects
@@ -1009,7 +1009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 116.332 102.87 90)
 			(effects
 				(font
@@ -1079,7 +1079,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 108.712 102.87 90)
 			(effects
 				(font
@@ -1311,7 +1311,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 140.97 107.188 90)
 			(effects
 				(font

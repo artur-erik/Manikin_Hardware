@@ -1033,7 +1033,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LSM6DSM:PQFN50P300X250X86-14N"
+		(property "Footprint" "PQFN50P300X250X86-14N:PQFN50P300X250X86-14N"
 			(at 115.57 90.17 0)
 			(effects
 				(font

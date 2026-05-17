@@ -4021,16 +4021,8 @@
 		(uuid "5fefea8a-3fca-4234-90c2-9723cada1998")
 	)
 	(no_connect
-		(at 205.74 128.27)
-		(uuid "61256fab-fd11-45f6-89a9-0caf18d96cfd")
-	)
-	(no_connect
 		(at 246.38 54.61)
 		(uuid "7093b551-9310-4bf3-b388-0b8d15b7eca8")
-	)
-	(no_connect
-		(at 74.93 53.34)
-		(uuid "76e1f8b0-8ccd-4178-b0c4-a17e5d95d7bc")
 	)
 	(no_connect
 		(at 205.74 115.57)
@@ -4053,6 +4045,10 @@
 		(uuid "97bac34d-835e-4575-8cf4-83acf0fe9c83")
 	)
 	(no_connect
+		(at 246.38 80.01)
+		(uuid "9cb323de-f256-4809-a6e2-e2805a037d12")
+	)
+	(no_connect
 		(at 205.74 125.73)
 		(uuid "a453e430-8238-4cc5-9689-a67786ecbae7")
 	)
@@ -4069,6 +4065,10 @@
 		(uuid "b713fee0-442f-409c-a627-40bf1800c279")
 	)
 	(no_connect
+		(at 74.93 52.07)
+		(uuid "c15fe410-171d-4a3e-81d6-61e8af14ec72")
+	)
+	(no_connect
 		(at 246.38 113.03)
 		(uuid "cdfe557b-7640-4131-81b0-c2057b71fdf7")
 	)
@@ -4077,8 +4077,8 @@
 		(uuid "ce6762e2-6512-4921-aeec-b66bdf8febce")
 	)
 	(no_connect
-		(at 74.93 55.88)
-		(uuid "d5dc6876-5308-407e-b036-8ef47da08956")
+		(at 74.93 54.61)
+		(uuid "d497b52c-9117-4139-be3e-f953446b70af")
 	)
 	(no_connect
 		(at 246.38 92.71)
@@ -4087,10 +4087,6 @@
 	(no_connect
 		(at 205.74 67.31)
 		(uuid "e62cc91c-1b51-4b9b-99f5-ff1cd44f2520")
-	)
-	(no_connect
-		(at 205.74 123.19)
-		(uuid "ea97d959-ed58-4e33-aa20-29e02b7d8b2e")
 	)
 	(no_connect
 		(at 246.38 128.27)
@@ -4107,6 +4103,10 @@
 	(no_connect
 		(at 205.74 140.97)
 		(uuid "f98f3aa4-85aa-4e1e-af26-885b98cdd140")
+	)
+	(no_connect
+		(at 205.74 102.87)
+		(uuid "fbbd6ed4-7196-456a-87a4-76e3645fff61")
 	)
 	(no_connect
 		(at 205.74 118.11)
@@ -4640,26 +4640,6 @@
 		)
 		(uuid "3ba4752b-fd4a-4c26-9ad1-d13f54155511")
 	)
-	(label "SWDIO"
-		(at 74.93 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3ef6ea33-a521-4653-842c-36881b8e7363")
-	)
-	(label "SWDIO"
-		(at 205.74 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4305ede6-fc78-44e9-a7bb-99a65f8a29b0")
-	)
 	(label "Boot"
 		(at 205.74 110.49 180)
 		(effects
@@ -4670,6 +4650,16 @@
 		)
 		(uuid "47649dca-07ce-41d7-b9a2-7780e9b8ff34")
 	)
+	(label "SWCLK"
+		(at 74.93 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4c0f04c4-4ac1-4853-a68a-3e74462149f6")
+	)
 	(label "+3.3V"
 		(at 74.93 88.9 0)
 		(effects
@@ -4679,26 +4669,6 @@
 			(justify left bottom)
 		)
 		(uuid "56301bcc-e99a-4153-82f5-0a6a15585a36")
-	)
-	(label "SWCLK"
-		(at 74.93 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5667be8b-4613-4993-a81a-a0627d3563bd")
-	)
-	(label "+3.3V"
-		(at 82.55 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "58ddd037-3384-4beb-ad77-202abf749373")
 	)
 	(label "DM"
 		(at 205.74 87.63 180)
@@ -4771,7 +4741,7 @@
 		(uuid "73f8de54-b750-44ad-b137-48be61471587")
 	)
 	(label "LED"
-		(at 205.74 135.89 180)
+		(at 205.74 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4820,15 +4790,25 @@
 		)
 		(uuid "938a4ac8-375f-4008-a62a-3eadcd7aafc0")
 	)
-	(label "SWCLK"
-		(at 205.74 95.25 180)
+	(label "+3.3V"
+		(at 82.55 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "9a2bef46-3790-48e0-a426-86ced86efa42")
+		(uuid "9d1bb660-e914-432d-b17b-8bbf7298feaf")
+	)
+	(label "SWDIO"
+		(at 74.93 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a4338864-6498-4d9f-860a-a72664c78ab7")
 	)
 	(label "+3.3V"
 		(at 138.43 99.06 180)
@@ -4859,6 +4839,16 @@
 			(justify left bottom)
 		)
 		(uuid "a9f104ca-4fab-4b2f-bbb1-41a8b7e316dd")
+	)
+	(label "SWDIO"
+		(at 205.74 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ab67a31c-057f-44ff-bb0a-9725ebd325ab")
 	)
 	(label "EXTAL"
 		(at 205.74 74.93 180)
@@ -4919,6 +4909,16 @@
 			(justify left bottom)
 		)
 		(uuid "d3ad202b-59d1-4ddb-b0c3-5fa88b46f6ce")
+	)
+	(label "SWCLK"
+		(at 205.74 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d41152f3-dd83-4048-9624-b5c27d73f03a")
 	)
 	(label "SWCLK"
 		(at 60.96 49.53 0)
@@ -4995,12 +4995,12 @@
 	)
 	(hierarchical_label "GP2"
 		(shape input)
-		(at 246.38 80.01 0)
+		(at 205.74 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "69b8d1eb-636c-47ae-a3f4-c5f38371f254")
 	)
@@ -5028,7 +5028,7 @@
 	)
 	(hierarchical_label "GP3"
 		(shape input)
-		(at 205.74 102.87 180)
+		(at 205.74 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5322,7 +5322,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ASH7KW-32.768KHZ-L-T:XTAL_ASH7KW-32.768KHZ-L-T"
+		(property "Footprint" "XTAL_ASH7KW-32.768KHZ-L-T:XTAL_ASH7KW-32.768KHZ-L-T"
 			(at 54.61 93.98 0)
 			(effects
 				(font
@@ -5654,72 +5654,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 82.55 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d25922a-b2b0-48a0-bf3e-b1638607e4a5")
-		(property "Reference" "#PWR054"
-			(at 82.55 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 82.55 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a99833c-16ea-4403-9c56-2c55b59dda52")
-		)
-		(instances
-			(project "SensorHub_2.0"
-				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 78.74 143.51 0)
 		(unit 1)
@@ -5746,7 +5680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 76.962 143.51 90)
 			(effects
 				(font
@@ -5789,6 +5723,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 82.55 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13e23478-ef0c-4dbc-bcf0-8a1976580075")
+		(property "Reference" "#PWR036"
+			(at 82.55 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "602e6366-e965-4cb2-81f8-175a7de121a9")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 144.78 44.45 0)
 		(unit 1)
@@ -5816,7 +5816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 143.002 44.45 90)
 			(effects
 				(font
@@ -5885,7 +5885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 120.142 167.64 90)
 			(effects
 				(font
@@ -7154,6 +7154,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Protection:USBLC6-4SC6")
+		(at 82.55 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6916f6ff-bb4e-4101-b0c9-fcc3d6c3fc69")
+		(property "Reference" "U9"
+			(at 88.9 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USBLC6-4SC6"
+			(at 83.058 42.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 85.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-4.pdf"
+			(at 85.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Very low capacitance ESD protection diode, 4 data-line, SOT-23-6"
+			(at 82.55 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "USBLC6-4SC6Y "
+			(at 82.55 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "66fbd612-346e-45e8-b2ba-e728d1d3d2bd")
+		)
+		(pin "2"
+			(uuid "43c70f19-a251-459b-a0fe-f641b7d8a0c1")
+		)
+		(pin "1"
+			(uuid "c7576b92-79a9-4c3d-b6c4-c212e1fbc507")
+		)
+		(pin "4"
+			(uuid "6af642c2-17ed-4dea-9cc5-9e63ce1ef861")
+		)
+		(pin "5"
+			(uuid "7680e6db-18d8-4a12-9be1-5533bb3ceab8")
+		)
+		(pin "3"
+			(uuid "0b18cfa5-b368-4216-864a-9032c4b594c1")
+		)
+		(instances
+			(project "SensorHub_2.0"
+				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 123.19 123.19 0)
 		(unit 1)
@@ -7246,7 +7339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 83.312 143.51 90)
 			(effects
 				(font
@@ -7872,99 +7965,6 @@
 			(project "SensorHub_2.0"
 				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Protection:USBLC6-4SC6")
-		(at 82.55 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a4c63081-d78b-4396-9d2e-c5b78b3bd8b1")
-		(property "Reference" "U9"
-			(at 83.82 41.148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "USBLC6-4SC6"
-			(at 83.82 43.688 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 85.09 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-4.pdf"
-			(at 85.09 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Very low capacitance ESD protection diode, 4 data-line, SOT-23-6"
-			(at 82.55 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "USBLC6-4SC6Y "
-			(at 82.55 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "8905c197-5659-4d31-9d39-fb1d16c1d2a2")
-		)
-		(pin "2"
-			(uuid "31a70836-f5fa-4e90-b9a0-0ad65eafda4e")
-		)
-		(pin "1"
-			(uuid "1bee0d77-4233-422d-a5ca-2fd13406ef7f")
-		)
-		(pin "4"
-			(uuid "a188cd33-f425-46d6-b6e1-1b3145744d82")
-		)
-		(pin "5"
-			(uuid "ae39f324-1a3b-4222-a26e-200b58a829bb")
-		)
-		(pin "3"
-			(uuid "f8474442-07fa-4cf8-b849-1038286785d7")
-		)
-		(instances
-			(project "SensorHub_2.0"
-				(path "/9668bc71-8924-498e-982f-628f3083c8b8/654fedd9-e4dd-4bc9-b3a7-f679d72db815"
-					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -8649,7 +8649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 126.492 167.64 90)
 			(effects
 				(font

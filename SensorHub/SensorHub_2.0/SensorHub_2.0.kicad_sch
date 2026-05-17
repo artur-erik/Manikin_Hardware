@@ -5,7 +5,7 @@
 	(uuid "9668bc71-8924-498e-982f-628f3083c8b8")
 	(paper "A4")
 	(title_block
-		(title "SensorHub_2.0_ManikinSystem26")
+		(title "SensorHub_2.3_ManikinSystem26")
 		(date "28.04.2026")
 		(comment 4 "Design by Artur Erik")
 	)
@@ -3148,7 +3148,7 @@
 		(uuid "02b91ddb-5a81-483a-8167-03eb40980772")
 	)
 	(label "SCK"
-		(at 147.32 128.27 180)
+		(at 147.32 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3238,7 +3238,7 @@
 		(uuid "1c04a63a-e9c4-4a7e-a378-e9d33aca3eda")
 	)
 	(label "SCL_0"
-		(at 147.32 153.67 180)
+		(at 147.32 156.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3298,7 +3298,7 @@
 		(uuid "34b35a58-35a1-4d01-b567-4d922fb24ff7")
 	)
 	(label "SDA_0"
-		(at 147.32 156.21 180)
+		(at 147.32 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3418,7 +3418,7 @@
 		(uuid "69ebceef-55ce-4298-ae67-ded545f1cf11")
 	)
 	(label "MISO"
-		(at 147.32 120.65 180)
+		(at 147.32 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3658,7 +3658,7 @@
 		(uuid "abbb4a1e-f32b-4f4c-b63d-9ffbe2a0ead4")
 	)
 	(label "CS"
-		(at 147.32 125.73 180)
+		(at 147.32 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3678,7 +3678,7 @@
 		(uuid "b68bb617-ffcf-4fd5-b714-08cb87e38b1f")
 	)
 	(label "MOSI"
-		(at 147.32 123.19 180)
+		(at 147.32 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3768,7 +3768,7 @@
 		(uuid "d5bb1a21-304c-490e-80eb-37f9a3bbaf8a")
 	)
 	(label "Analog"
-		(at 147.32 148.59 180)
+		(at 147.32 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5685,7 +5685,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 123.698 125.73 90)
 			(effects
 				(font
